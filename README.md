@@ -2,9 +2,13 @@
 ### Information
 Feb. 28 - Mar. 1, 2022, Lausanne, Switzerland.
 
+### Organizers
+* Saeed Rashidi (Georgia Tech)
+* William Won (Georgia Tech)
+* Tushar Krishna (Georgia Tech)
+
 ### Tutorial Details
 Tutorial materials work in process, details coming soon.
-
 
 # ASTRA-sim Repository
 https://github.com/astra-sim/astra-sim
