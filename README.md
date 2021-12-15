@@ -29,10 +29,10 @@ Saeed Rashidi, Srinivas Sridharan, Sudarshan Srinivasan, and Tushar Krishna,
                    Srinivas Sridharan and
                    Sudarshan Srinivasan and
                    Tushar Krishna},
-    title        = {{ASTRA-SIM: Enabling SW/HW Co-Design Exploration for Distributed DL Training Platforms}},
-    booktitle     = {{IEEE} International Symposium on Performance Analysis of Systems
-                    and Software, {ISPASS} 2020, Boston, MA, USA, August 22-26, 2020},
-  publisher     = {{IEEE}},
+    title        = {ASTRA-SIM: Enabling SW/HW Co-Design Exploration for Distributed DL Training Platforms},
+    booktitle     = {IEEE International Symposium on Performance Analysis of Systems
+                    and Software, ISPASS 2020, Boston, MA, USA, August 22-26, 2020},
+  publisher     = {IEEE},
   year          = {2020},
 }
 ```
