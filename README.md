@@ -4,7 +4,7 @@
 This is the ASTRA-sim distributed Deep Learning Training simulator, developed in collaboration between Georgia Tech, Facebook and Intel.
 
 An overview is presented here:
-![alt text](https://github.com/astra-sim/astra-sim/blob/master/assets/images/astrasim_overview_codesign.png)
+![alt text](assets/images/astrasim_overview_codesign.png)
 
 The full description of the tool and its strength can be found in the paper below:
 
@@ -12,21 +12,6 @@ Saeed Rashidi, Srinivas Sridharan, Sudarshan Srinivasan, and Tushar Krishna,
 "ASTRA-SIM: Enabling SW/HW Co-Design Exploration for Distributed DL Training Platforms"
 *In Proc of the IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS), Apr 2020*
 [[pdf]](https://sites.gatech.edu/ece-synergy/files/2020/08/astrasim_ispass2020.pdf)[[slides]](https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/c/332/files/2020/08/ISPASS2020-ASTRA-SIM_talk.pdf)[[video]](https://www.youtube.com/watch?v=S-HE9yBv8_I&list=PLHJB2bhmgB7crXM7wBKIDi7OEa0UTZtrR&index=10)
-
-**Bibtex**
-
-    @inproceedings{astrasim,
-        author       = {Saeed Rashidi and
-                       Srinivas Sridharan and
-                       Sudarshan Srinivasan and
-                       Tushar Krishna},
-        title        = {{ASTRA-SIM: Enabling SW/HW Co-Design Exploration for Distributed DL Training Platforms}},
-        booktitle     = {{IEEE} International Symposium on Performance Analysis of Systems
-                        and Software, {ISPASS} 2020, Boston, MA, USA, August 22-26, 2020},
-      publisher     = {{IEEE}},
-      year          = {2020},
-    }
-
 
 ### Setup Instructions ###
 
