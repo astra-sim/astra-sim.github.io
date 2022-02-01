@@ -9,16 +9,16 @@ In this tutorial, we will educate the research community about the challenges in
 - Date: Feb 28, 2022, 13:00 - 16:00.
 
 ## Organizers
-- [Saeed Rashidi](https://www.linkedin.com/in/saeed-rashidi-b3114b75) (Georgia Tech)
-- [William Won](https://www.linkedin.com/in/willjwon) (Georgia Tech)
-- [Taekyung Heo](https://www.linkedin.com/in/taekyungheo) (Georgia Tech)
-- [Tushar Krishna](https://tusharkrishna.ece.gatech.edu) (Georgia Tech)
+- Saeed Rashidi (Georgia Tech) [<i class="fab fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/saeed-rashidi-b3114b75){: .btn .btn--info .btn--small}
+- William Won (Georgia Tech) [<i class="fab fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/willjwon){: .btn .btn--info .btn--small}
+- Taekyung Heo (Georgia Tech) [<i class="fab fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/taekyungheo){: .btn .btn--info .btn--small}
+- Tushar Krishna (Georgia Tech) [<i class="fas fa-address-card"></i> Website](https://tusharkrishna.ece.gatech.edu){: .btn .btn--info .btn--small}
 
 ## Schedule
 
 | Time          | Agenda                                            | Presenter | Resources |
 |---------------|---------------------------------------------------|-----------|-----------|
-| 13:00 - 14:00 | Introduction to Distributed DL Training           | Tushar    | [Slide](/){: .btn .btn--info} [Video](/){: .btn .btn--success} |
+| 13:00 - 14:00 | Introduction to Distributed DL Training           | Tushar    | [Slide](/){: .btn .btn--danger} [Video](/){: .btn .btn--success} |
 |               | Training Platforms                                |           |           |
 |               | Parallelism Strategies                            |           |           |
 |               | Collective Communication                          |           |           |
@@ -38,3 +38,6 @@ In this tutorial, we will educate the research community about the challenges in
 | 15:45 - 16:00 | Extensions and Future Development                 | Saeed     |           |
 |               | NS3 Integration                                   |           |           |
 |               | FlexFlow Integration                              |           |           |
+
+## Resources
+TBA

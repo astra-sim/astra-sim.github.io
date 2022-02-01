@@ -9,6 +9,8 @@ main:
 docs:
   - title: "Getting Started"
     children:
+      - title: "Prerequisites"
+        url: "/docs/prerequisites"
       - title: "Installation"
         url: "/docs/installation"
       - title: "Running ASTRA-sim"
