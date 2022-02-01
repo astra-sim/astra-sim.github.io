@@ -11,16 +11,17 @@ header:
       url: "/docs"
 excerpt: "An Open-source Distributed Deep Learning Training Simulator Infrastructure"
 intro:
-feature_row:
+asplos_2022_tutorial:
   - image_path: /assets/images/test.jpg
-    overlay_color: "#abcdef"
-    title: "Test"
-    excerpt: "Test"
-    url: "/hello"
+    title: "ASPLOS 2022 Tutorial"
+    excerpt: "We're running an ASTRA-sim tutorial at ASPLOS 2022.<br>Feb 28, 2022, 13:00."
+    url: "/tutorials/asplos-2022"
     btn_label: "Read More"
     btn_class: "btn--primary"
 toc: false
 ---
+
+{% include feature_row id="asplos_2022_tutorial" type="left" %}
 
 # Overview
 
@@ -67,5 +68,3 @@ Please email Saeed Rashidi (saeed.rashidi@gatech.edu) or Srinivas Sridharan (ssr
 * Greg Steinbrecher (Facebook)
 
 {% include feature_row id="intro" %}
-
-{% include feature_row id="feature_row" type="left" %}
