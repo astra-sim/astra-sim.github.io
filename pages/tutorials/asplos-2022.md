@@ -11,7 +11,7 @@ In this tutorial, we will educate the research community about the challenges in
 ## Organizers
 - [Saeed Rashidi](https://www.linkedin.com/in/saeed-rashidi-b3114b75) (Georgia Tech)
 - [William Won](https://www.linkedin.com/in/willjwon) (Georgia Tech)
-- [Taekyung Heo](https://www.linkedin.com/in/taekyungheo) (KAIST)
+- [Taekyung Heo](https://www.linkedin.com/in/taekyungheo) (Georgia Tech)
 - [Tushar Krishna](https://tusharkrishna.ece.gatech.edu) (Georgia Tech)
 
 ## Schedule
