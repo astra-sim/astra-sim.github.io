@@ -1,1 +1,40 @@
-title: "ASTRA-sim Project"
+# Page configuration
+title: ASTRA-sim
+title_separator: "-"
+locale: "en-US"
+url: "https://astra-sim.github.io"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Themes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default"  # Color scheme configuration
+
+# Author
+lab: "Synergy Lab"
+github_username: "astra-sim"
+repository: astra-sim/astra-sim.github.io
+
+# Site Setup
+atom_feed:
+  hide: true  # Hides RSS feed button
+footer:
+  links:
+    - label: "Synergy"
+      icon: "fas fa-fw fa-university"
+      url: "https://synergy.ece.gatech.edu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/astra-sim"
+
+# Page setup
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
+      sidebar:
+        nav: "docs"
