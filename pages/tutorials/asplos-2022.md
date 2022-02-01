@@ -18,26 +18,31 @@ In this tutorial, we will educate the research community about the challenges in
 
 | Time          | Agenda                                            | Presenter | Resources |
 |---------------|---------------------------------------------------|-----------|-----------|
-| 13:00 - 14:00 | Introduction to Distributed DL Training           | Tushar    | [Slide](/){: .btn .btn--danger} [Video](/){: .btn .btn--success} |
+| 13:00 | Introduction to Distributed DL Training           | Tushar    | [Slide](/abc){: .btn .btn--danger .btn--small} [Video](/abc){: .btn .btn--success .btn--small} |
 |               | Training Platforms                                |           |           |
 |               | Parallelism Strategies                            |           |           |
 |               | Collective Communication                          |           |           |
-| 14:00 - 15:00 | ASTRA-sim                                         | Saeed     |           |
+| 14:00 | ASTRA-sim                                         | Saeed     |           |
 |               | Overview                                          |           |           |
 |               | Workload Generator                                |           |           |
 |               | Workload Layer                                    |           |           |
 |               | System Layer                                      |           |           |
 |               | Network Layer                                     |           |           |
-| 15:00 - 15:10 | Break                                             |           |           |
-| 15:10 - 15:45 | Demo and Exercises                                | Will      |           |
+| 15:00 | Break                                             |           |           |
+| 15:10 | Demo and Exercises                                | Will      |           |
 |               | Cloning, Building, Running Example                |           |           |
 |               | Exercise 1: Compare System A and System B         |           |           |
 |               | Exercise 2: Compare Collective A and Collective B |           |           |
 |               | Exercise 3: Analytical vs Garnet Network          |           |           |
 |               | Exercise 4: Implementing a new Training Loop      | Taekyung  |           |
-| 15:45 - 16:00 | Extensions and Future Development                 | Saeed     |           |
+| 15:45 | Extensions and Future Development                 | Saeed     |           |
 |               | NS3 Integration                                   |           |           |
 |               | FlexFlow Integration                              |           |           |
 
 ## Resources
+### Repositories
+[ASTRA-sim](https://github.com/astra-sim/astra-sim){: .btn .btn--info}
+[Analytical Network](https://github.com/astra-sim/analytical){: .btn .btn--info}
+
+### Docker Image
 TBA
