@@ -19,9 +19,3 @@ docs:
     children:
       - title: "ASPLOS 2022"
         url: "/tutorials/asplos-2022"
-
-# tutorials:
-#   - title: Tutorials
-#     children:
-#       - title: "Tutorials"
-#         url: /tutorials

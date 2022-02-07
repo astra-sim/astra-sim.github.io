@@ -5,15 +5,15 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/test.jpg
+  overlay_image: /assets/images/banner.jpg
   actions:
     - label: "Get Started"
       url: "/docs"
 excerpt: "An Open-source Distributed Deep Learning Training Simulator Infrastructure"
 intro:
 asplos_2022_tutorial:
-  - image_path: /assets/images/test.jpg
-    title: "ASPLOS 2022 Tutorial"
+  - image_path: /assets/images/tutorials/asplos-2022/banner-geneva.jpg
+    title: "ASTRA-sim Tutorial @ ASPLOS 2022"
     excerpt: "We're running an ASTRA-sim tutorial at ASPLOS 2022.<br>Feb 28, 2022, 13:00."
     url: "/tutorials/asplos-2022"
     btn_label: "Read More"
@@ -24,18 +24,18 @@ toc: false
 {% include feature_row id="asplos_2022_tutorial" type="left" %}
 
 # Overview
-
 This is the ASTRA-sim distributed Deep Learning Training simulator, developed in collaboration between Georgia Tech, Facebook and Intel.
 
 An overview is presented here:<br>
 <img src="/assets/images/astrasim_overview_codesign.png" alt="" width="80%"/>
 
-The full description of the tool and its strength can be found in the paper below:
+The full description of the tool and its strength can be found in the paper: [pdf](https://sites.gatech.edu/ece-synergy/files/2020/08/astrasim_ispass2020.pdf){: .btn .btn--success}
+[slides](https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/c/332/files/2020/08/ISPASS2020-ASTRA-SIM_talk.pdf){: .btn .btn--success}
+[video](https://www.youtube.com/watch?v=S-HE9yBv8_I&list=PLHJB2bhmgB7crXM7wBKIDi7OEa0UTZtrR&index=10){: .btn .btn--danger}
 
 Saeed Rashidi, Srinivas Sridharan, Sudarshan Srinivasan, and Tushar Krishna,
 "ASTRA-SIM: Enabling SW/HW Co-Design Exploration for Distributed DL Training Platforms"
-*In Proc of the IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS), Apr 2020*
-[[pdf]](https://sites.gatech.edu/ece-synergy/files/2020/08/astrasim_ispass2020.pdf)[[slides]](https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/c/332/files/2020/08/ISPASS2020-ASTRA-SIM_talk.pdf)[[video]](https://www.youtube.com/watch?v=S-HE9yBv8_I&list=PLHJB2bhmgB7crXM7wBKIDi7OEa0UTZtrR&index=10)
+*In Proc of the IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS), Apr 2020*.
 {: .notice--info}
 
 ```latex
