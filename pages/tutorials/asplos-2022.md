@@ -8,7 +8,7 @@ permalink: /tutorials/asplos-2022
 In this tutorial, we will educate the research community about the challenges in the emerging domain of distributed training, demonstrate the capabilities of ASTRA-sim with examples and discuss ongoing development efforts.<br>
 
 ### Date
-- Feb 28, 2022, 13:00 - 16:00
+- Feb 28, 2022, 3-6PM (CET) / 9AM-12PM (ET)
 - Virtual event (links will be shared via Whova).
 
 ## Organizers
