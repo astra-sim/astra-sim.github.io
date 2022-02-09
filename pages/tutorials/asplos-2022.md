@@ -65,24 +65,24 @@ The tutorial targets students, faculty, and researchers who want to
 
 | Time (CET)          | Time (ET) | Agenda                                            | Presenter | Resources |
 |---------------|-|---------------------------------------------------|-----------|-----------|
-| 13:00 | | Introduction to Distributed DL Training           | Tushar | |
+| 16:00 | 9:00 | Introduction to Distributed DL Training           | Tushar | |
 |               | | Training Platforms                                |           |           |
 |               | | Parallelism Strategies                            |           |           |
 |               | | Collective Communication                          |           |           |
-| 14:00 | | ASTRA-sim                                         | Saeed     |           |
+| 17:00 | 10:00 | ASTRA-sim                                         | Saeed     |           |
 |               | | Overview                                          |           |           |
 |               | | Workload Generator                                |           |           |
 |               | | Workload Layer                                    |           |           |
 |               | | System Layer                                      |           |           |
 |               | | Network Layer                                     |           |           |
-| 15:00 | | Break                                             |           |           |
-| 15:10 | | Demo and Exercises                                | Will      |           |
+| 18:00 | 11:00 | Break                                             |           |           |
+| 18:10 | 11:10 | Demo and Exercises                                | Will      |           |
 |               | | Cloning, Building, Running Example                |           |           |
 |               | | Exercise 1: Compare System A and System B         |           |           |
 |               | | Exercise 2: Compare Collective A and Collective B |           |           |
 |               | | Exercise 3: Analytical vs Garnet Network          |           |           |
 |               | | Exercise 4: Implementing a new Training Loop      | Taekyung  | [Slide](/assets/tutorials/asplos-2022/exercise4_astra_sim_asplos_2022_tutorial.pdf){: .btn .btn--success .btn--small} |
-| 15:45 | | Extensions and Future Development                 | Saeed     |           |
+| 18:45 | 11:45 | Extensions and Future Development                 | Saeed     |           |
 |               | | NS3 Integration                                   |           |           |
 |               | | FlexFlow Integration                              |           |           |
 
