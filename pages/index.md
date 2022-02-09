@@ -14,7 +14,7 @@ intro:
 asplos_2022_tutorial:
   - image_path: /assets/images/tutorials/asplos-2022/banner-geneva.jpg
     title: "ASTRA-sim Tutorial @ ASPLOS 2022"
-    excerpt: "We're running an ASTRA-sim tutorial at ASPLOS 2022.<br>Feb 28, 2022, 2-6PM (Switzerland Time) / 8AM-12PM (ET)."
+    excerpt: "We're running an ASTRA-sim tutorial at ASPLOS 2022.<br>Feb 28, 2022, 3-6PM (CET) / 9AM-12PM (ET)."
     url: "/tutorials/asplos-2022"
     btn_label: "Read More"
     btn_class: "btn--primary"
