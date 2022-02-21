@@ -27,7 +27,7 @@ cd astra-sim/build/astra_analytical/
 ### Verify Installation
 Work in progress; will be added soon!
 
-## 2. Getting Started a Prebuilt Docker Image
+## 2. Getting Started with a Prebuilt Docker Image
 ```
 ```
 
