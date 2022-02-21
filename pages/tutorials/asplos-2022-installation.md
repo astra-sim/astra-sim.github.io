@@ -29,6 +29,8 @@ Work in progress; will be added soon!
 
 ## 2. Getting Started with a Prebuilt Docker Image
 ```
+docker pull astrasim/astra-sim-tutorial
+docker run -it astrasim/astra-sim-tutorial
 ```
 
 <nav class="pagination">
