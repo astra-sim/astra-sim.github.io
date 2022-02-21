@@ -7,7 +7,12 @@ permalink: /tutorials/asplos-2022/installation
 Work in progress; will be added soon!
 
 ## Prerequisites
-TBA
+```
+sudo apt -y install\
+    tcsh vim gcc g++ make cmake\
+    libboost-dev libboost-program-options-dev\
+    python3 git
+```
 
 ## Download ASTRA-sim
 ```
