@@ -10,7 +10,9 @@ Work in progress; will be added soon!
 TBA
 
 ## Download ASTRA-sim
-TBA
+```
+git clone --recursive https://github.com/astra-sim/astra-sim.git
+```
 
 ## Compile ASTRA-sim
 TBA
