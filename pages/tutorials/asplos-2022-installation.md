@@ -16,7 +16,7 @@ git clone --recursive https://github.com/astra-sim/astra-sim.git
 
 ## Compile ASTRA-sim
 ```
-cd build/astra_analytical/
+cd astra-sim/build/astra_analytical/
 ./build.sh -c
 ```
 
