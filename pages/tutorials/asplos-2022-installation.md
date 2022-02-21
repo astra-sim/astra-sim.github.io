@@ -18,7 +18,7 @@ sudo apt -y install\
 git clone --recursive https://github.com/astra-sim/astra-sim.git
 ```
 
-### Compile ASTRA-sim
+### Build ASTRA-sim
 ```
 cd astra-sim/build/astra_analytical/
 ./build.sh -c
