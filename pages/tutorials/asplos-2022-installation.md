@@ -27,12 +27,12 @@ cd astra-sim/build/astra_analytical/
 ### Verify Installation
 Work in progress; will be added soon!
 
-## 2. Getting Started with a Prebuilt Docker Image
+## 2. Getting Started with Prebuilt Docker Image
 ### Pull Docker Image
 ```
 docker pull astrasim/astra-sim-tutorial
 ```
-### Run a Container and Build ASTRA-sim
+### Run Container and Build ASTRA-sim
 ```
 docker run -it astrasim/astra-sim-tutorial
 cd astra-sim/
