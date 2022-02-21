@@ -15,7 +15,10 @@ git clone --recursive https://github.com/astra-sim/astra-sim.git
 ```
 
 ## Compile ASTRA-sim
-TBA
+```
+cd build/astra_analytical/
+./build.sh -c
+```
 
 ## Verify Installation
 TBA
