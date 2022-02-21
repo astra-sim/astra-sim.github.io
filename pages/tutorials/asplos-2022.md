@@ -88,7 +88,7 @@ The tutorial targets students, faculty, and researchers who want to
 
 ## Resources
 ### Installation
-[Installation](/tutorials/asplos-2022/installation){: .btn .btn--info)
+[Installation](/tutorials/asplos-2022/installation){: .btn .btn--info}
 
 ### Repositories
 [ASTRA-sim](https://github.com/astra-sim/astra-sim){: .btn .btn--info}
