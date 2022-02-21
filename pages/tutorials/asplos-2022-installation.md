@@ -32,9 +32,11 @@ Work in progress; will be added soon!
 ```
 docker pull astrasim/astra-sim-tutorial
 ```
-### Run a Container
+### Run a Container and Build ASTRA-sim
 ```
 docker run -it astrasim/astra-sim-tutorial
+cd astra-sim/
+./build/astra_analytical/build.sh -c
 ```
 
 <nav class="pagination">
