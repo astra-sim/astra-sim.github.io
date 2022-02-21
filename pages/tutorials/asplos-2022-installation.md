@@ -9,7 +9,7 @@ Work in progress; will be added soon!
 ## Prerequisites
 ```
 sudo apt -y install\
-    tcsh vim gcc g++ make cmake\
+    vim gcc g++ make cmake\
     libboost-dev libboost-program-options-dev\
     python3 git
 ```
