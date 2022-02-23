@@ -81,7 +81,7 @@ The tutorial targets students, faculty, and researchers who want to
 |               | | Exercise 1: Compare System A and System B         |           |           |
 |               | | Exercise 2: Compare Collective A and Collective B |           |           |
 |               | | Exercise 3: Analytical vs Garnet Network          |           |           |
-|               | | Exercise 4: Implementing a new Training Loop      | Taekyung  | [Slide](/assets/tutorials/asplos-2022/exercise4_astra_sim_asplos_2022_tutorial.pdf){: .btn .btn--success .btn--small} |
+|               | | Exercise 4: Implementing a new Training Loop      | Taekyung  |           |
 | 17:45 | 11:45 | Extensions and Future Development                 | Saeed     |           |
 |               | | NS3 Integration                                   |           |           |
 |               | | FlexFlow Integration                              |           |           |
