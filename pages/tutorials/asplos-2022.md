@@ -45,7 +45,7 @@ In this tutorial, we will educate the research community about the challenges in
     <td><img src="/assets/images/tutorials/asplos-2022/taekyung_heo.jpeg" alt="Taekyung Heo"/></td>
     <td>
         <b>Taekyung Heo</b> (Georgia Tech) <a href="https://www.linkedin.com/in/taekyungheo" class="btn btn--info"><i class="fab fa-linkedin"></i> LinkedIn</a><br><br>
-        Taekyung Heo is a postdoctoral researcher at Georgia Tech. He is interested in designing hardware and software for terabyte-scale memory systems. Memory is a key component in computer systems. Emerging applications such as deep learning and recommendation systems require memory capacity that exceeds that of traditional systems. As a result, there is a need for redesigning hardware and software stacks. His Ph.D. studies identified problems and proposed solutions in data placement, memory allocation, security, and address translation.
+        Taekyung Heo is a Postdoctoral Researcher at Georgia Tech. He received a Ph.D. in Computer Science from KAIST (2022), an M.S. in Computer Science from KAIST (2016), and a B.S. from Sungkyunkwan University (2014). My research interests are memory systems, GNN accelerators, and distributed training.
         <br>
     </td>
 </tr>
