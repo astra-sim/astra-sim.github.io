@@ -63,8 +63,10 @@ Please email Saeed Rashidi (saeed.rashidi@gatech.edu) or Srinivas Sridharan (ssr
 * Jiayi Huang (University of California, Santa Barbara)
 * Apurve Chawde (Georgia Tech)
 * Santosh Kumar Elangoven (Georgia Tech)
-* William Won (Georgia Tech)
+* Will Won (Georgia Tech)
 * Tushar Krishna (Georgia Tech)
 * Greg Steinbrecher (Facebook)
+* Sudarshan Srinivasan (Intel)
+* Taekyung Heo (Georgia Tech)
 
 {% include feature_row id="intro" %}
