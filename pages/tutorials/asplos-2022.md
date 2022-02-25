@@ -80,8 +80,7 @@ The tutorial targets students, faculty, and researchers who want to
 |               | | Cloning, Building, Running Example                |           |           |
 |               | | Exercise 1: Compare System A and System B         |           |           |
 |               | | Exercise 2: Compare Collective A and Collective B |           |           |
-|               | | Exercise 3: Analytical vs Garnet Network          |           |           |
-|               | | Exercise 4: Implementing a new Training Loop      | Taekyung  |           |
+|               | | Exercise 3: Implementing a new Training Loop      | Taekyung  |           |
 | 17:45 | 11:45 | Extensions and Future Development                 | Saeed     |           |
 |               | | NS3 Integration                                   |           |           |
 |               | | FlexFlow Integration                              |           |           |
