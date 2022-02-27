@@ -81,7 +81,7 @@ The tutorial targets students, faculty, and researchers who want to
 |               | | Exercise 2: Comparing Collectives |           | [Slide](/assets/tutorials/asplos-2022/4_asplos2022_tutorial_Will_demo_exercise_2.pdf){: .btn .btn--success .btn--small} |
 |               | | Exercise 3: Comparing Systems|           | [Slide](/assets/tutorials/asplos-2022/5_asplos2022_tutorial_Will_demo_exercise_3.pdf){: .btn .btn--success .btn--small} |
 |               | | Exercise 4: Implementing a new Training Loop      | Taekyung  | [Slide](/assets/tutorials/asplos-2022/6_asplos2022_tutorial_Taekyung_exercise_4.pdf){: .btn .btn--success .btn--small} |
-| 17:45 | 11:45 | Extensions and Future Development                 | Saeed     |           |
+| 17:50 | 11:50 | Extensions and Future Development                 | Saeed     |           |
 |               | | NS3 Integration                                   |           |           |
 |               | | FlexFlow Integration                              |           |           |
 
