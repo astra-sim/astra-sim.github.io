@@ -69,7 +69,7 @@ The tutorial targets students, faculty, and researchers who want to
 |               | | Training Platforms                                |           |           |
 |               | | Parallelism Strategies                            |           |           |
 |               | | Collective Communication                          |           |           |
-| 16:00 | 10:00 | ASTRA-sim                                         | Saeed     |           |
+| 16:00 | 10:00 | ASTRA-sim                                         | Saeed     | [Slide](/assets/tutorials/asplos-2022/2_asplos2022_tutorial_Saeed_demo_ASTRASIM.pdf){: .btn .btn--success .btn--small} |
 |               | | Overview                                          |           |           |
 |               | | Workload Generator                                |           |           |
 |               | | Workload Layer                                    |           |           |
@@ -77,9 +77,9 @@ The tutorial targets students, faculty, and researchers who want to
 |               | | Network Layer                                     |           |           |
 | 17:00 | 11:00 | Break                                             |           |           |
 | 17:10 | 11:10 | Demo and Exercises                                | Will      |           |
-|               | | Exercise 1: Getting Started with ASTRA-sim      |           |           |
-|               | | Exercise 2: Compare System A and System B         |           |           |
-|               | | Exercise 3: Compare Collective A and Collective B |           |           |
+|               | | Exercise 1: Getting Started with ASTRA-sim      |           | [Slide](/assets/tutorials/asplos-2022/3_asplos2022_tutorial_Will_demo_exercise_1.pdf){: .btn .btn--success .btn--small}  |
+|               | | Exercise 2: Comparing Collectives |           | [Slide](/assets/tutorials/asplos-2022/4_asplos2022_tutorial_Will_demo_exercise_2.pdf){: .btn .btn--success .btn--small} |
+|               | | Exercise 3: Comparing Systems|           | [Slide](/assets/tutorials/asplos-2022/4_asplos2022_tutorial_Will_demo_exercise_3.pdf){: .btn .btn--success .btn--small} |
 |               | | Exercise 4: Implementing a new Training Loop      | Taekyung  | [Slide](/assets/tutorials/asplos-2022/6_asplos2022_tutorial_Taekyung_exercise_4.pdf){: .btn .btn--success .btn--small} |
 | 17:45 | 11:45 | Extensions and Future Development                 | Saeed     |           |
 |               | | NS3 Integration                                   |           |           |
