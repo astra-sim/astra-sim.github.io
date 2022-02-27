@@ -24,16 +24,14 @@ cd tutorials/asplos2022
 ./clone_astra_sim.sh
 ```
 
-### Build ASTRA-sim
+### Build ASTRA-sim for Exercise 1
 ```
-cd astra-sim/
-./build/astra_analytical/build.sh -c
+./exercise_1/build.sh
 ```
 
-### Setup Exercise 0
+### Run Exercise 1
 ```
-cd ../
-./exercise_0/setup.sh
+./exercise_1/exercise_1.sh
 ```
 
 ## 2. Getting Started with Prebuilt Docker Image
@@ -48,10 +46,14 @@ cd tutorials/asplos2022/astra-sim/
 ./build/astra_analytical/build.sh -c
 ```
 
-### Setup Exercise 0
+### Build ASTRA-sim for Exercise 1
 ```
-cd ../
-./exercise_0/setup.sh
+./exercise_1/build.sh
+```
+
+### Run Exercise 1
+```
+./exercise_1/exercise_1.sh
 ```
 
 <nav class="pagination">
