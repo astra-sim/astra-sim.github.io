@@ -77,10 +77,10 @@ The tutorial targets students, faculty, and researchers who want to
 |               | | Network Layer                                     |           |           |
 | 17:00 | 11:00 | Break                                             |           |           |
 | 17:10 | 11:10 | Demo and Exercises                                | Will      |           |
-|               | | Cloning, Building, Running Example                |           |           |
-|               | | Exercise 1: Compare System A and System B         |           |           |
-|               | | Exercise 2: Compare Collective A and Collective B |           |           |
-|               | | Exercise 3: Implementing a new Training Loop      | Taekyung  |           |
+|               | | Exercise 1: Getting Started with ASTRA-sim      |           |           |
+|               | | Exercise 2: Compare System A and System B         |           |           |
+|               | | Exercise 3: Compare Collective A and Collective B |           |           |
+|               | | Exercise 4: Implementing a new Training Loop      | Taekyung  |           |
 | 17:45 | 11:45 | Extensions and Future Development                 | Saeed     |           |
 |               | | NS3 Integration                                   |           |           |
 |               | | FlexFlow Integration                              |           |           |
