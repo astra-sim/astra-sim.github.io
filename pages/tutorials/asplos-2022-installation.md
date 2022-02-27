@@ -30,6 +30,12 @@ cd astra-sim/
 ./build/astra_analytical/build.sh -c
 ```
 
+### Setup Exercise 0
+```
+cd ../
+./setup/exercise_0.sh
+```
+
 ## 2. Getting Started with Prebuilt Docker Image
 ### Pull Docker Image
 ```
@@ -40,6 +46,12 @@ docker pull astrasim/astra-sim-tutorial
 docker run -it astrasim/astra-sim-tutorial
 cd tutorials/asplos2022/astra-sim/
 ./build/astra_analytical/build.sh -c
+```
+
+### Setup Exercise 0
+```
+cd ../
+./setup/exercise_0.sh
 ```
 
 <nav class="pagination">
