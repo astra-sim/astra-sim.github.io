@@ -22,13 +22,12 @@ git clone --recursive https://github.com/astra-sim/tutorials.git
 ```
 cd tutorials/asplos2022
 ./clone_astra_sim.sh
-
 ```
 
 ### Build ASTRA-sim
 ```
-cd astra-sim/build/astra_analytical/
-./build.sh -c
+cd astra-sim/
+./build/astra_analytical/build.sh -c
 ```
 
 ## 2. Getting Started with Prebuilt Docker Image
