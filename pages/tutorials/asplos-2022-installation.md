@@ -13,18 +13,18 @@ sudo apt -y install\
     python3 git
 ```
 
-### Clone ASTRA-Sim Tutorial
+### Clone ASTRA-sim Tutorial
 ```
 git clone --recursive https://github.com/astra-sim/tutorials.git
 ```
 
-### Clone ASTRA-Sim
+### Clone ASTRA-sim
 ```
 cd tutorials/asplos2022
 ./clone_astra_sim.sh
 ```
 
-### Build ASTRA-Sim for Exercise 1
+### Build ASTRA-sim for Exercise 1
 ```
 ./exercise_1/build.sh
 ```
@@ -39,14 +39,14 @@ cd tutorials/asplos2022
 ```
 docker pull astrasim/astra-sim-tutorial
 ```
-### Run Container and Build ASTRA-Sim
+### Run Container and Build ASTRA-sim
 ```
 docker run -it astrasim/astra-sim-tutorial
 cd tutorials/asplos2022/astra-sim/
 ./build/astra_analytical/build.sh -c
 ```
 
-### Build ASTRA-Sim for Exercise 1
+### Build ASTRA-sim for Exercise 1
 ```
 ./exercise_1/build.sh
 ```
