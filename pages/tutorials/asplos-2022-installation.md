@@ -38,7 +38,7 @@ docker pull astrasim/astra-sim-tutorial
 ### Run Container and Build ASTRA-sim
 ```
 docker run -it astrasim/astra-sim-tutorial
-cd tutorial/astra-sim
+cd tutorials/asplos2022/astra-sim/
 ./build/astra_analytical/build.sh -c
 ```
 
