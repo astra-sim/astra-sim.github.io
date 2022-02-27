@@ -65,7 +65,7 @@ The tutorial targets students, faculty, and researchers who want to
 
 | Time (CET)          | Time (ET) | Agenda                                            | Presenter | Resources |
 |---------------|-|---------------------------------------------------|-----------|-----------|
-| 15:00 | 9:00 | Introduction to Distributed DL Training           | Tushar | |
+| 15:00 | 9:00 | Introduction to Distributed DL Training           | Tushar | [Slide](/assets/tutorials/asplos-2022/1_asplos2022_introduction.pdf){: .btn .btn--success .btn--small} |
 |               | | Training Platforms                                |           |           |
 |               | | Parallelism Strategies                            |           |           |
 |               | | Collective Communication                          |           |           |
@@ -80,7 +80,7 @@ The tutorial targets students, faculty, and researchers who want to
 |               | | Exercise 1: Getting Started with ASTRA-sim      |           |           |
 |               | | Exercise 2: Compare System A and System B         |           |           |
 |               | | Exercise 3: Compare Collective A and Collective B |           |           |
-|               | | Exercise 4: Implementing a new Training Loop      | Taekyung  |           |
+|               | | Exercise 4: Implementing a new Training Loop      | Taekyung  | [Slide](/assets/tutorials/asplos-2022/6_asplos2022_tutorial_Taekyung_exercise_4.pdf){: .btn .btn--success .btn--small} |
 | 17:45 | 11:45 | Extensions and Future Development                 | Saeed     |           |
 |               | | NS3 Integration                                   |           |           |
 |               | | FlexFlow Integration                              |           |           |
