@@ -39,7 +39,7 @@ cd tutorials/asplos2022
 ```
 docker pull astrasim/astra-sim-tutorial
 ```
-### Run Container and Build ASTRA-sim
+### Run Container and Build ASTRA-Sim
 ```
 docker run -it astrasim/astra-sim-tutorial
 cd tutorials/asplos2022/astra-sim/
