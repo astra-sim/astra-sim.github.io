@@ -33,7 +33,7 @@ cd astra-sim/
 ### Setup Exercise 0
 ```
 cd ../
-./setup/exercise_0.sh
+./exercise_0/setup.sh
 ```
 
 ## 2. Getting Started with Prebuilt Docker Image
@@ -51,7 +51,7 @@ cd tutorials/asplos2022/astra-sim/
 ### Setup Exercise 0
 ```
 cd ../
-./setup/exercise_0.sh
+./exercise_0/setup.sh
 ```
 
 <nav class="pagination">
