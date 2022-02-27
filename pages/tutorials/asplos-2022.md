@@ -79,7 +79,7 @@ The tutorial targets students, faculty, and researchers who want to
 | 17:10 | 11:10 | Demo and Exercises                                | Will      |           |
 |               | | Exercise 1: Getting Started with ASTRA-sim      |           | [Slide](/assets/tutorials/asplos-2022/3_asplos2022_tutorial_Will_demo_exercise_1.pdf){: .btn .btn--success .btn--small}  |
 |               | | Exercise 2: Comparing Collectives |           | [Slide](/assets/tutorials/asplos-2022/4_asplos2022_tutorial_Will_demo_exercise_2.pdf){: .btn .btn--success .btn--small} |
-|               | | Exercise 3: Comparing Systems|           | [Slide](/assets/tutorials/asplos-2022/4_asplos2022_tutorial_Will_demo_exercise_3.pdf){: .btn .btn--success .btn--small} |
+|               | | Exercise 3: Comparing Systems|           | [Slide](/assets/tutorials/asplos-2022/5_asplos2022_tutorial_Will_demo_exercise_3.pdf){: .btn .btn--success .btn--small} |
 |               | | Exercise 4: Implementing a new Training Loop      | Taekyung  | [Slide](/assets/tutorials/asplos-2022/6_asplos2022_tutorial_Taekyung_exercise_4.pdf){: .btn .btn--success .btn--small} |
 | 17:45 | 11:45 | Extensions and Future Development                 | Saeed     |           |
 |               | | NS3 Integration                                   |           |           |
