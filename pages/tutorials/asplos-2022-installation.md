@@ -24,7 +24,7 @@ cd tutorials/asplos2022
 ./clone_astra_sim.sh
 ```
 
-### Build ASTRA-sim for Exercise 1
+### Build ASTRA-Sim for Exercise 1
 ```
 ./exercise_1/build.sh
 ```
@@ -46,7 +46,7 @@ cd tutorials/asplos2022/astra-sim/
 ./build/astra_analytical/build.sh -c
 ```
 
-### Build ASTRA-sim for Exercise 1
+### Build ASTRA-Sim for Exercise 1
 ```
 ./exercise_1/build.sh
 ```
