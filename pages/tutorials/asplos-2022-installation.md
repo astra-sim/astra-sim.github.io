@@ -4,7 +4,7 @@ title:  "Getting Started for ASPLOS 2022 Tutorial"
 permalink: /tutorials/asplos-2022/installation
 ---
 
-## 1. Getting Started from Source
+## 1. Getting Started with Source Codes
 ### Install Prerequisites
 ```
 sudo apt -y install\
@@ -13,9 +13,16 @@ sudo apt -y install\
     python3 git
 ```
 
-### Clone ASTRA-sim
+### Clone ASTRA-Sim Tutorial
 ```
-git clone --recursive https://github.com/astra-sim/astra-sim.git
+git clone --recursive https://github.com/astra-sim/tutorials.git
+```
+
+### Clone ASTRA-Sim
+```
+cd tutorials/asplos2022
+./clone_astra_sim.sh
+
 ```
 
 ### Build ASTRA-sim
@@ -23,9 +30,6 @@ git clone --recursive https://github.com/astra-sim/astra-sim.git
 cd astra-sim/build/astra_analytical/
 ./build.sh -c
 ```
-
-### Verify Installation
-Work in progress; will be added soon!
 
 ## 2. Getting Started with Prebuilt Docker Image
 ### Pull Docker Image
