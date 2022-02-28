@@ -44,7 +44,7 @@ In this tutorial, we will educate the research community about the challenges in
 <tr>
     <td><img src="/assets/images/tutorials/asplos-2022/taekyung_heo.jpeg" alt="Taekyung Heo"/></td>
     <td>
-        <b>Taekyung Heo</b> (Georgia Tech) <a href="https://www.linkedin.com/in/taekyungheo" class="btn btn--info"><i class="fab fa-linkedin"></i> LinkedIn</a><br><br>
+        <b>Taekyung Heo</b> (Georgia Tech) <a href="https://sites.google.com/view/taekyungheo" class="btn btn--info"><i class="fas fa-address-card"></i> Website</a> <a href="https://www.linkedin.com/in/taekyungheo" class="btn btn--info"><i class="fab fa-linkedin"></i> LinkedIn</a><br><br>
         Taekyung Heo is a Postdoctoral Researcher at Georgia Tech. He received a Ph.D. in Computer Science from KAIST (2022), an M.S. in Computer Science from KAIST (2016), and a B.S. from Sungkyunkwan University (2014). His research interests are memory systems, GNN accelerators, and distributed training.
         <br>
     </td>
