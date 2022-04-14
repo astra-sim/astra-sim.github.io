@@ -19,3 +19,7 @@ docs:
     children:
       - title: "ASPLOS 2022"
         url: "/tutorials/asplos-2022"
+      - title: "ISCA 2022"
+        url: "/tutorials/isca-2022"
+      - title: "MLSys 2022"
+        url: "/tutorials/mlsys-2022"
