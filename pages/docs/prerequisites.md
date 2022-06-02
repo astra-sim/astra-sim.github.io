@@ -34,3 +34,5 @@ Please use Windows Subsystem for Linux. [WSL](https://docs.microsoft.com/en-us/w
     <a href="#" class="pagination--pager disabled">Previous</a>
     <a href="/docs/installation" class="pagination--pager">Next</a>
 </nav>
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fastra-sim.github.io%2Fdocs%2Fprerequisites&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitor&edge_flat=false)](https://hits.seeyoufarm.com)

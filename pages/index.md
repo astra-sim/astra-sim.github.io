@@ -34,7 +34,7 @@ toc: false
 <!-- {% include feature_row id="isca_2022_tutorial" type="right" %} -->
 <!-- {% include feature_row id="mlsys_2022_tutorial" type="left" %} -->
 
-<!-- [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fastra-sim%2Fastra-sim.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) -->
+
 
 # Tutorials
 <!-- ## 2022 -->
@@ -90,3 +90,5 @@ Please email Saeed Rashidi (saeed.rashidi@gatech.edu) or Srinivas Sridharan (ssr
 * Taekyung Heo (Georgia Tech)
 
 {% include feature_row id="intro" %}
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fastra-sim%2Fastra-sim.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitor&edge_flat=false)](https://hits.seeyoufarm.com)
