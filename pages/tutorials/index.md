@@ -4,7 +4,8 @@ title:  "Tutorials"
 permalink: /tutorials
 ---
 
+# Tutorials
 ## 2022
-- [ASPLOS 2022](/tutorials/asplos-2022)
-- [ISCA 2022](/tutorials/isca-2022)
-- [MLSys 2022](/tutorials/mlsys-2022)
+- [ASPLOS 2022](/tutorials/asplos-2022){: .btn .btn--inverse}
+- [ISCA 2022](/tutorials/isca-2022){: .btn .btn--inverse}
+- [MLSys 2022](/tutorials/mlsys-2022){: .btn .btn--inverse}

@@ -9,6 +9,8 @@ header:
   actions:
     - label: "Get Started"
       url: "/docs"
+    - label: "Tutorials"
+      url: "/tutorials"
 excerpt: "An Open-source Distributed Deep Learning Training Simulator Infrastructure"
 intro:
 isca_2022_tutorial:
@@ -28,10 +30,18 @@ mlsys_2022_tutorial:
 toc: false
 ---
 
-{% include feature_row id="isca_2022_tutorial" type="right" %}
-{% include feature_row id="mlsys_2022_tutorial" type="left" %}
+{% include feature_row id="isca_2022_tutorial" type="left" %}
+<!-- {% include feature_row id="isca_2022_tutorial" type="right" %} -->
+<!-- {% include feature_row id="mlsys_2022_tutorial" type="left" %} -->
 
 <!-- [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fastra-sim%2Fastra-sim.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) -->
+
+# Tutorials
+<!-- ## 2022 -->
+- [ASPLOS 2022](/tutorials/asplos-2022){: .btn .btn--inverse}
+- [ISCA 2022](/tutorials/isca-2022){: .btn .btn--inverse}
+<!-- - [MLSys 2022](/tutorials/mlsys-2022){: .btn .btn--inverse} -->
+<br><br>
 
 # Overview
 This is the ASTRA-sim distributed Deep Learning Training simulator, developed in collaboration between Georgia Tech, Facebook and Intel.
