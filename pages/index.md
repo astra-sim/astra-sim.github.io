@@ -16,7 +16,7 @@ intro:
 isca_2022_tutorial:
   - image_path: /assets/images/tutorials/isca-2022/banner-new-york.jpg
     title: "ASTRA-sim Tutorial @ ISCA 2022"
-    excerpt: "We're running an ASTRA-sim tutorial at ISCA 2022.<br>Jun 19, 2022<br>New York, NY, USA."
+    excerpt: "We're running an ASTRA-sim tutorial at ISCA 2022.<br>Jun 19, 2022<br>New York, NY, USA<br>Columbus Circle (lower level)."
     url: "/tutorials/isca-2022"
     btn_label: "Read More"
     btn_class: "btn--primary"
