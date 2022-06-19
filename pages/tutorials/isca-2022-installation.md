@@ -60,11 +60,10 @@ When execution fails, please check if ASTRA-sim is successfully compiled.
 docker pull astrasim/astra-sim-tutorial
 ```
 
-## Run Container and Build ASTRA-sim
+## Run Container
 ```bash
 docker run -it astrasim/astra-sim-tutorial
 cd tutorials/isca2022/astra-sim/
-./build/astra_analytical/build.sh -c
 ```
 
 ## Build ASTRA-sim for Exercise 1
