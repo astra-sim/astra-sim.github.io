@@ -39,7 +39,7 @@ toc: false
 # Tutorials
 <!-- ## 2022 -->
 - [ASPLOS 2022](/tutorials/asplos-2022){: .btn .btn--inverse}
-- [ISCA 2022](/tutorials/isca-2022){: .btn .btn--inverse} [Join the Zoom meeting here](https://gatech.zoom.us/j/99701438406)
+- [ISCA 2022](/tutorials/isca-2022){: .btn .btn--inverse} [Join the Zoom meeting here](https://gatech.zoom.us/j/99701438406){: .btn .btn--inverse}
 <!-- - [MLSys 2022](/tutorials/mlsys-2022){: .btn .btn--inverse} -->
 <br><br>
 
