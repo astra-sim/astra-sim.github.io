@@ -13,26 +13,16 @@ header:
       url: "/tutorials"
 excerpt: "An Open-source Distributed Deep Learning Training Simulator Infrastructure"
 intro:
-isca_2022_tutorial:
-  - image_path: /assets/images/tutorials/isca-2022/banner-new-york.jpg
-    title: "ASTRA-sim Tutorial @ ISCA 2022"
-    excerpt: "We're running an ASTRA-sim tutorial at ISCA 2022.<br>Jun 19, 2022<br>New York, NY, USA<br>Columbus Circle (lower level)."
-    url: "/tutorials/isca-2022"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 mlsys_2022_tutorial:
   - image_path: /assets/images/tutorials/mlsys-2022/banner-san-francisco.jpg
     title: "ASTRA-sim Tutorial @ MLSys 2022"
-    excerpt: "We're running an ASTRA-sim tutorial at MLSys 2022.<br> Sep 1, 2022<br>Santa Clara, CA, USA (Hybrid Event)."
+    excerpt: "We're running an ASTRA-sim tutorial at MLSys 2022.<br> Aug 31, 2022<br>Santa Clara, CA, USA"
     url: "/tutorials/mlsys-2022"
     btn_label: "Read More"
     btn_class: "btn--primary"
 toc: false
 ---
-
-{% include feature_row id="isca_2022_tutorial" type="left" %}
-<!-- {% include feature_row id="isca_2022_tutorial" type="right" %} -->
-<!-- {% include feature_row id="mlsys_2022_tutorial" type="left" %} -->
+{% include feature_row id="mlsys_2022_tutorial" type="left" %}
 
 
 
@@ -40,7 +30,7 @@ toc: false
 <!-- ## 2022 -->
 - [ASPLOS 2022](/tutorials/asplos-2022){: .btn .btn--inverse}
 - [ISCA 2022](/tutorials/isca-2022){: .btn .btn--inverse}
-<!-- - [MLSys 2022](/tutorials/mlsys-2022){: .btn .btn--inverse} -->
+- [MLSys 2022](/tutorials/mlsys-2022){: .btn .btn--inverse}
 <br><br>
 
 # Overview
