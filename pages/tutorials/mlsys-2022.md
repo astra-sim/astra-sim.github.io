@@ -77,12 +77,12 @@ The tutorial targets students, faculty, and researchers who want to
 
 | Time (PDT) | Time (EDT) | Agenda | Presenter | Resources |
 |:---:|:---:|---|:---:|:---:|
-| **1:00 PM** | **4:00 PM** | **Introduction to Distributed DL Training** | Tushar | [Slide](/assets/tutorials/mlsys-2022/1_mlsys2022_introduction.pdf){: .btn .btn--success .btn--small} |
+| **1:00 PM** | **4:00 PM** | **Introduction to Distributed DL Training** | Tushar | [Slide](/assets/tutorials/mlsys-2022/1_mlsys2022_introduction.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/BMyhFxs1b-M){: .btn .btn--danger} |
 | | | Training Platforms | | |
 | | | Parallelism Strategies | | |
 | | | Collective Communication | | |
 | **2:00 PM** | **5:00 PM** | **Training Systems Challenges:<br>An Industry Perspective from Meta** | Srinivas | |
-| **2:20 PM** | **5:20 PM** | **ASTRA-sim** | Saeed | [Slide](/assets/tutorials/mlsys-2022/3_mlsys2022_tutorial_Saeed_demo_ASTRASIM.pdf){: .btn .btn--success .btn--small} |
+| **2:20 PM** | **5:20 PM** | **ASTRA-sim** | Saeed | [Slide](/assets/tutorials/mlsys-2022/3_mlsys2022_tutorial_Saeed_demo_ASTRASIM.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/z21s1pcte20){: .btn .btn--danger} |
 | | | Overview | | |
 || | Workload Generator | | |
 | | | Workload Layer | | |
@@ -90,11 +90,11 @@ The tutorial targets students, faculty, and researchers who want to
 | | | Network Layer | | |
 | **3:30 PM** | **6:30 PM** | **Coffee Break** | | |
 | **4:00 PM** | **7:00 PM** | **Demo and Exercises** | | |
-| | | Exercise 1: Getting Started with ASTRA-sim | William | [Slide](/assets/tutorials/mlsys-2022/4_mlsys2022_tutorial_Will_demo_exercise_1.pdf){: .btn .btn--success .btn--small} |
-| | | Exercise 2: Comparing Collectives | William | [Slide](/assets/tutorials/mlsys-2022/5_mlsys2022_tutorial_Will_demo_exercise_2.pdf){: .btn .btn--success .btn--small} |
-| | | Exercise 3: Comparing Systems| William | [Slide](/assets/tutorials/mlsys-2022/6_mlsys2022_tutorial_Will_demo_exercise_3.pdf){: .btn .btn--success .btn--small} |
-| | | Exercise 4: Implementing a new Training Loop | Taekyung | [Slide](/assets/tutorials/mlsys-2022/7_mlsys2022_tutorial_Taekyung_exercise_4.pdf){: .btn .btn--success .btn--small} |
-| **4:50 PM** | **7:50 PM** | **Extensions and Future Development** | Taekyung | [Slide](/assets/tutorials/mlsys-2022/8_mlsys2022_tutorial_Taekyung_next_steps.pdf){: .btn .btn--success .btn--small} |
+| | | Exercise 1: Getting Started with ASTRA-sim | William | [Slide](/assets/tutorials/mlsys-2022/4_mlsys2022_tutorial_Will_demo_exercise_1.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/BhB1XAmOhD0){: .btn .btn--danger} |
+| | | Exercise 2: Comparing Collectives | William | [Slide](/assets/tutorials/mlsys-2022/5_mlsys2022_tutorial_Will_demo_exercise_2.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/Nzl8Yz52GB8){: .btn .btn--danger} |
+| | | Exercise 3: Comparing Systems| William | [Slide](/assets/tutorials/mlsys-2022/6_mlsys2022_tutorial_Will_demo_exercise_3.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/hQtVhI04r-o){: .btn .btn--danger} |
+| | | Exercise 4: Implementing a new Training Loop | Taekyung | [Slide](/assets/tutorials/mlsys-2022/7_mlsys2022_tutorial_Taekyung_exercise_4.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/dmNPYYatGSQ){: .btn .btn--danger} |
+| **4:50 PM** | **7:50 PM** | **Extensions and Future Development** | Taekyung | [Slide](/assets/tutorials/mlsys-2022/8_mlsys2022_tutorial_Taekyung_next_steps.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/Nz8Ikv77R0I){: .btn .btn--danger} |
 
 
 ## Resources
