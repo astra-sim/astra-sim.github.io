@@ -41,6 +41,14 @@ The tutorial targets students, faculty, and researchers who want to
     </td>
 </tr>
 <tr>
+    <td><img src="/assets/images/tutorials/asplos-2023/srinivas_sridharan.png" alt="Srinivas Sridharan" width="100%"/></td>
+    <td>
+        <b>Srinivas Sridharan</b> (Meta) <br><a href="mailto:ssrinvas@fb.com" class="btn btn--info"><i class="fa fa-envelope"></i> Email</a><br>
+        Srinivas Sridharan is a Research Scientist at Meta/Facebook and works on communication libraries, networking, and simulation for Facebook's AI Infrastructure. Before joining Facebook, he was a Research Scientist at Intel Labs. At Intel, he led the development of Intel's Machine Learning Scaling Library (MLSL), a library to accelerate AI/deep-learning operations on Intel platforms, which is an Intel product today. He received multiple awards during his tenure at Intel – the Intel Labs Gordy Award, Intel SSG/DPD Divisional Recognition Award, Intel DCG Divisional Recognition Award (twice) and the Intel TCAR Award. He received his PhD in Computer Science and Engineering from the University of Notre Dame in 2010.
+        <br>
+    </td>
+</tr>
+<tr>
     <td><img src="/assets/images/tutorials/asplos-2023/saeed_rashidi.jpg" alt="Saeed Rashidi"/></td>
     <td>
         <b>Saeed Rashidi</b> (Georgia Tech) <br><a href="mailto:saeed.rashidi@gatech.edu" class="btn btn--info"><i class="fa fa-envelope"></i> Email</a> <a href="https://www.linkedin.com/in/saeed-rashidi-b3114b75" class="btn btn--info"><i class="fab fa-linkedin"></i> LinkedIn</a><br>
