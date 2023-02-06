@@ -11,8 +11,10 @@ In this tutorial, we will educate the research community about the challenges in
 
 
 ### Date/Location
-- Mar 26, 2023.
+- Mar 26, 2023, afternoon session (exact timeline to be released soon).
 - Vancouver, Canada.
+- fyi: During the ASPLOS 2023 registration process, **attendees are requested to specify their intention to attend the ASTRA-sim tutorial** on the registration form.
+
 
 ## Description
 Modern deep learning systems heavily rely on distributed training over customized high-performance accelerator (e.g., TPU, GPU)-based hardware platforms connected via high-performance interconnects (e.g., NVLink, XeLink). Examples today include NVIDIA's HGX H100, Google's Cloud TPU, Facebook's Zion, and Intel’s Gaudi HLS-1. Deep Neural Network (DNN) training involves a complex interplay between the DNN model architecture, parallelization strategy, scheduling strategy, collective communication algorithm, network topology, and the accelerator endpoint. Collective communications (e.g., All-Reduce, All-to-All, Reduce-Scatter, All-Gather) are initiated at different phases for different parallelism approaches and play a crucial role in overall runtime, if not hidden efficiently behind compute. This problem becomes paramount as recent models for NLP such as GPT-3 or MSFT-1T and Recommendations such as DLRM have billions to trillions of model parameters and need to be scaled across tens to hundreds to thousands of accelerator nodes. As innovation in AI/ML models continues to grow at an accelerated rate, there is a need for a comprehensive methodology to understand and navigate this complex design space to (i) architect future platforms and (ii) develop novel parallelism schemes to support efficient training of future DNN models.
