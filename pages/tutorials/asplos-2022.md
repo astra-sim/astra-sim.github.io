@@ -45,7 +45,7 @@ In this tutorial, we will educate the research community about the challenges in
     <td><img src="/assets/images/tutorials/asplos-2022/taekyung_heo.jpeg" alt="Taekyung Heo"/></td>
     <td>
         <b>Taekyung Heo</b> (Georgia Tech) <a href="https://sites.google.com/view/taekyungheo" class="btn btn--info"><i class="fas fa-address-card"></i> Website</a> <a href="https://www.linkedin.com/in/taekyungheo" class="btn btn--info"><i class="fab fa-linkedin"></i> LinkedIn</a><br><br>
-        Taekyung Heo is a Postdoctoral Researcher at Georgia Tech. He received a Ph.D. in Computer Science from KAIST (2022), an M.S. in Computer Science from KAIST (2016), and a B.S. from Sungkyunkwan University (2014). His research interests are memory systems, GNN accelerators, and distributed training.
+        Taekyung is a postdoctoral researcher at Georgia Tech and a research advisor at Meta. He received a Ph.D. in Computer Science from KAIST (2022), an M.S. from KAIST (2016), and a B.S. from Sungkyunkwan University (2014). During his Ph.D. studies, he focused on co-designing HW and SW for terabyte-scale memory systems. After finishing his Ph.D., Taekyung joined the Synergy Lab to extend his research area to machine learning. Currently, he is actively engaged in optimizing the performance of distributed training systems by addressing various challenges in the areas of memory systems, network-on-chip, and system performance modeling.
         <br>
     </td>
 </tr>
