@@ -76,28 +76,28 @@ The tutorial targets students, faculty, and researchers who want to
 </tr>
 </table>
 
-<!-- ## Schedule
+## Schedule
 
-| **Time (PDF)** | **Agenda**                                   | **Presenter** | **Resources** |
-|:--------------:|----------------------------------------------|:-------------:|---------------|
-|    **8:30**    | **Introduction to Distributed DL Training**  |     Tushar    | [Slide](/assets/tutorials/isca-2022/1_isca2022_introduction.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/xAOs7eWbenw){: .btn .btn--danger}|
-|                | Training Platforms                           |               |               |
-|                | Parallelism Strategies                       |               |               |
-|                | Collective Communication                     |               |               |
-|    **9:30**    | **ASTRA-sim**                                |     Saeed     | [Slide](/assets/tutorials/isca-2022/2_isca2022_tutorial_Saeed_demo_ASTRASIM.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/r3OeAiNsBcA){: .btn .btn--danger}|
-|                | Overview                                     |               |               |
-|                | Workload Generator                           |               |               |
-|                | Workload Layer                               |               |               |
-|                | System Layer                                 |               |               |
-|                | Network Layer                                |               |               |
-|    **10:30**   | **Coffee Break**                             |               |               |
-|    **11:00**   | **Demo and Exercises**                       |           |               |
-|                | Exercise 1: Getting Started with ASTRA-sim   |      William         | [Slide](/assets/tutorials/isca-2022/3_isca2022_tutorial_Will_demo_exercise_1.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/jPFGVE9YKyQ){: .btn .btn--danger}| |
-|                | Exercise 2: Comparing Collectives            |      William         | [Slide](/assets/tutorials/isca-2022/4_isca2022_tutorial_Will_demo_exercise_2.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/D39TlnvXa8I){: .btn .btn--danger}| |
-|                | Exercise 3: Comparing Systems                |      William         | [Slide](/assets/tutorials/isca-2022/5_isca2022_tutorial_Will_demo_exercise_3.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/dD8aDfjRI0o){: .btn .btn--danger}| |
-|                | Exercise 4: Implementing a new Training Loop |    Taekyung   | [Slide](/assets/tutorials/isca-2022/6_isca2022_tutorial_Taekyung_exercise_4.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/Y-d5u_Lw1wA){: .btn .btn--danger}| |
-|    **11:50**   | **Closing Remarks**                          |    Taekyung   | [Slide](/assets/tutorials/isca-2022/7_isca2022_tutorial_Taekyung_next_steps.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/AW3DFqkef28){: .btn .btn--danger}| |
-|                | Extensions and Future Development            |               |               | -->
+| Time (PDT) | Time (EDT) | Agenda | Presenter | Resources |
+|:---:|:---:|---|:---:|:---:|
+| **1:40 PM** | **4:40 PM** | **Introduction to Distributed DL Training** | Tushar | |
+| | | Training Platforms | | |
+| | | Parallelism Strategies | | |
+| | | Collective Communication | | |
+| **2:20 PM** | **5:20 PM** | **Training Systems Challenges:<br>An Industry Perspective from Meta** | Srinivas | |
+| **2:40 PM** | **5:40 PM** | **ASTRA-sim** | | |
+| | | Overview | Saeed | |
+| | | Workload Layer | Taekyung | |
+| **3:20 PM** | **6:20 PM** | **Coffee Break** | | |
+| **3:40 PM** | **6:40 PM** | **ASTRA-sim** | | |
+| | | System Layer | Saeed | |
+| | | Network Layer | William | |
+| **4:20 PM** | **7:20 PM** | **Demo** |  | |
+| | | Getting Started with ASTRA-sim | | |
+| | | Comparing Collectives | | |
+| | | Comparing Systems | | |
+| **4:50 PM** | **7:50 PM** | **Closing Remarks and Questions** | | |
+
 
 ## Resources
 ### Installation
