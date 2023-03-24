@@ -11,7 +11,7 @@ In this tutorial, we will educate the research community about the challenges in
 
 
 ### Date/Location
-- Mar 26, 2023, afternoon session (exact timeline to be released soon).
+- Mar 26, 2023, afternoon session (1:40 -- 5:00 PM PDT).
 - Vancouver, Canada.
 - fyi: During the ASPLOS 2023 registration process, **attendees are requested to specify their intention to attend the ASTRA-sim tutorial** on the registration form.
 
@@ -92,16 +92,32 @@ The tutorial targets students, faculty, and researchers who want to
 | **3:40 PM** | **6:40 PM** | **ASTRA-sim** | | |
 | | | System Layer | Saeed | |
 | | | Network Layer | William | |
-| **4:20 PM** | **7:20 PM** | **Demo** |  | |
+| **4:20 PM** | **7:20 PM** | **Demo** | William | |
 | | | Getting Started with ASTRA-sim | | |
 | | | Comparing Collectives | | |
 | | | Comparing Systems | | |
-| **4:50 PM** | **7:50 PM** | **Closing Remarks and Questions** | | |
+| **4:50 PM** | **7:50 PM** | **Closing Remarks and Questions** | Taekyung | |
 
 
 ## Resources
 ### Installation
 [Installation](/tutorials/asplos-2023/installation){: .btn .btn--info}
+
+### Papers
+```latex
+@inproceedings{astrasim2,
+    author={William Won and 
+            Taekyung Heo and 
+            Saeed Rashidi and 
+            Srinivas Sridharan and
+            Sudarshan Srinivasan and
+            Tushar Krishna},    
+    {% raw %}title={{ASTRA-sim2.0}: Modeling Hierarchical Networks and Disaggregated Systems for Large-model Training at Scale},{% endraw %}
+    booktitle={IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)},
+    year={2023}
+}
+```
+<a href="#" onclick="alert('We will provide a link to the paper as soon as it becomes available online.'); return false;" class="btn btn--success">arXiv (to appear)</a>
 
 ### Repositories
 [ASTRA-sim](https://github.com/astra-sim/astra-sim){: .btn .btn--info}
