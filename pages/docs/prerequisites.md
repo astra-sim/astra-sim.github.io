@@ -18,7 +18,7 @@ Using `apt`.
 sudo apt -y install \
     vim gcc g++ make cmake \
     libboost-dev libboost-program-options-dev \
-    python3 git
+    python3 git csh
 ```
 
 ### macOS
