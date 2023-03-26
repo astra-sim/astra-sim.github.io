@@ -38,50 +38,77 @@ toc: false
 <br><br>
 
 # Overview
-This is the ASTRA-sim distributed Deep Learning Training simulator, developed in collaboration between Georgia Tech, Facebook and Intel.
+This is the ASTRA-sim distributed Deep Learning Training simulator, developed in collaboration between Georgia Tech, Meta and Intel.
 
 An overview is presented here:<br>
 <img src="/assets/images/astrasim_overview_codesign.png" alt="" width="80%"/>
 
-The full description of the tool and its strength can be found in the paper: [pdf](https://sites.gatech.edu/ece-synergy/files/2020/08/astrasim_ispass2020.pdf){: .btn .btn--success}
+The full description of the tool and its strength can be found in these papers.
+
+
+### ASTRA-sim2.0 (ISPASS 2023)
+<a href="#" onclick="alert('We will provide a link to the paper as soon as it becomes available online.'); return false;" class="btn btn--primary">pdf</a>
+<a href="#" onclick="alert('We will provide a link to the slides as soon as it becomes available online.'); return false;" class="btn btn--primary">slides</a>
+<a href="#" onclick="alert('We will provide a link to the presentation video as soon as it becomes available online.'); return false;" class="btn btn--primary">pdf</a>
+
+William Won\*, Taekyung Heo\*, Saeed Rashidi\*, Srinivas Sridharan, Sudarshan Srinivasan, and Tushar Krishna,
+"ASTRA-sim2.0: Modeling Hierarchical Networks and Disaggregated Systems for Large-model Training at Scale,"
+In *Proc. of the IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)*, 2023. \\
+\* These authors contributed equally to this work.
+{: .notice--info}
+```latex
+@inproceedings{astrasim2,
+  author={William Won and 
+          Taekyung Heo and 
+          Saeed Rashidi and 
+          Srinivas Sridharan and
+          Sudarshan Srinivasan and
+          Tushar Krishna},    
+  {% raw %}title={{ASTRA-sim2.0}: Modeling Hierarchical Networks and Disaggregated Systems for Large-model Training at Scale},{% endraw %}
+  booktitle={IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)},
+  year={2023}
+}
+```
+
+### ASTRA-sim (ISPASS 2020)
+[pdf](https://sites.gatech.edu/ece-synergy/files/2020/08/astrasim_ispass2020.pdf){: .btn .btn--success}
 [slides](https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/c/332/files/2020/08/ISPASS2020-ASTRA-SIM_talk.pdf){: .btn .btn--success}
 [video](https://www.youtube.com/watch?v=S-HE9yBv8_I&list=PLHJB2bhmgB7crXM7wBKIDi7OEa0UTZtrR&index=10){: .btn .btn--danger}
 
 Saeed Rashidi, Srinivas Sridharan, Sudarshan Srinivasan, and Tushar Krishna,
-"ASTRA-SIM: Enabling SW/HW Co-Design Exploration for Distributed DL Training Platforms"
-*In Proc of the IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS), Apr 2020*.
+"ASTRA-SIM: Enabling SW/HW Co-Design Exploration for Distributed DL Training Platforms,"
+In *Proc. of the IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)*, 2020.
 {: .notice--info}
 
 ```latex
 @inproceedings{astrasim,
-    author       = {Saeed Rashidi and
-                   Srinivas Sridharan and
-                   Sudarshan Srinivasan and
-                   Tushar Krishna},
-    title        = {ASTRA-SIM: Enabling SW/HW Co-Design Exploration for Distributed DL Training Platforms},
-    booktitle     = {IEEE International Symposium on Performance Analysis of Systems
-                    and Software, ISPASS 2020, Boston, MA, USA, August 22-26, 2020},
-  publisher     = {IEEE},
-  year          = {2020},
+  author={Saeed Rashidi and
+          Srinivas Sridharan and
+          Sudarshan Srinivasan and
+          Tushar Krishna},
+  {% raw %}title={{ASTRA-SIM}: Enabling SW/HW Co-Design Exploration for Distributed DL Training Platforms},{% endraw %}
+  booktitle={IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)},
+  year={2020}
 }
 ```
 
 ## Contact
-Please email Saeed Rashidi (saeed.rashidi@gatech.edu) or Srinivas Sridharan (ssrinivas@fb.com) or Tushar Krishna (tushar@ece.gatech.edu) if you have any questions.
+Please email the core developers below or Tushar Krishna (tushar@ece.gatech.edu) if you have any questions.
 
 ## Core Developers
-* Saeed Rashidi (Georgia Tech)
-* Srinivas Sridharan (Facebook)
+* Saeed Rashidi (Georgia Tech) <a href="mailto:saeed.rashidi@gatech.edu" class="btn btn--info"><i class="fa fa-envelope"></i> Email</a>
+* Srinivas Sridharan (Meta) <a href="mailto:ssrinivas@fb.com" class="btn btn--info"><i class="fa fa-envelope"></i> Email</a>
+* William Won (Georgia Tech) <a href="mailto:william.won@gatech.edu" class="btn btn--info"><i class="fa fa-envelope"></i> Email</a>
+* Taekyung Heo (Georgia Tech) <a href="mailto:taekyung@gatech.edu" class="btn btn--info"><i class="fa fa-envelope"></i> Email</a>
 
 ## Additional Contributors
 * Jiayi Huang (University of California, Santa Barbara)
 * Apurve Chawde (Georgia Tech)
 * Santosh Kumar Elangoven (Georgia Tech)
-* Will Won (Georgia Tech)
 * Tushar Krishna (Georgia Tech)
-* Greg Steinbrecher (Facebook)
+* Greg Steinbrecher (Meta)
 * Sudarshan Srinivasan (Intel)
-* Taekyung Heo (Georgia Tech)
+
 
 {% include feature_row id="intro" %}
 
