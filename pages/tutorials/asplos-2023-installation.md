@@ -15,7 +15,7 @@ Using `apt`.
 sudo apt -y install \
     vim gcc g++ make cmake \
     libboost-dev libboost-program-options-dev \
-    python3 python3-pip git
+    python3 python3-pip git csh
 
 # For Plotting in Exercises
 pip3 install --upgrade pip
