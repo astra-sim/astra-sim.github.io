@@ -11,16 +11,28 @@ Please install dependencies shown below, according to your operating system.
 ### Debian/Ubuntu
 Using `apt`.
 ```bash
+# For ASTRA-sim
 sudo apt -y install \
     vim gcc g++ make cmake \
     libboost-dev libboost-program-options-dev \
-    python3 git
+    python3 python3-pip git
+
+# For Plotting in Exercises
+pip3 install --upgrade pip
+pip3 install pandas matplotlib seaborn
 ```
 
 ### macOS
 Using `homebrew`.
+
 ```bash
+# For ASTRA-sim
 brew install boost cmake coreutils
+
+# For Plotting in Exercises
+brew install python3
+pip3 install --upgrade pip
+pip3 install pandas matplotlib seaborn
 ```
 
 ### Windows
