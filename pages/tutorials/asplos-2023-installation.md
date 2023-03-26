@@ -38,17 +38,21 @@ cd tutorials/asplos2023
 ./clone_astra_sim.sh
 ```
 
-## Build ASTRA-sim for Exercise 1
+## Build ASTRA-sim (analytical backend)
 ```bash
-./exercise_1/build.sh
+./build_analytical.sh
 ```
-When build fails, please check if dependencies listed above are properly installed.
-{: .notice--warning}
+
+## Build ASTRA-sim (congestion-aware analytical backend)
+```bash
+./build_congestion.sh
+```
 
 ## Run Exercise 1
 ```bash
 ./exercise_1/exercise_1.sh
 ```
+
 When execution fails, please check if ASTRA-sim is successfully compiled.
 {: .notice--warning}
 
@@ -57,17 +61,22 @@ When execution fails, please check if ASTRA-sim is successfully compiled.
 # From Prebuilt Docker Image
 ## Pull Docker Image
 ```bash
-docker pull astrasim/asplos2023-tutorial
+docker pull astrasim/tutorial-asplos2023
 ```
 
 ## Run Container
 ```bash
-docker run -it astrasim/asplos2023-tutorial
+docker run -it astrasim/tutorial-asplos2023
 ```
 
-## Build ASTRA-sim for Exercise 1
+## Build ASTRA-sim (analytical backend)
 ```bash
-./exercise_1/build.sh
+./build_analytical.sh
+```
+
+## Build ASTRA-sim (congestion-aware analytical backend)
+```bash
+./build_congestion.sh
 ```
 
 ## Run Exercise 1
