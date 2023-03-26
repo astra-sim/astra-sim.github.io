@@ -94,8 +94,7 @@ The tutorial targets students, faculty, and researchers who want to
 | | | System Layer | Saeed | |
 | | | Network Layer | William | |
 | **4:20 PM** | **7:20 PM** | **Demo** | William | |
-| | | Getting Started with ASTRA-sim | | |
-| | | Comparing Collectives | | |
+| | | Profiling Collectives Using ASTRA-sim | | |
 | | | Comparing Systems | | |
 | **4:50 PM** | **7:50 PM** | **Closing Remarks and Questions** | Taekyung | |
 
