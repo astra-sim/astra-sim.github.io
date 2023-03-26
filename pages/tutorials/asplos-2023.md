@@ -11,10 +11,12 @@ In this tutorial, we will educate the research community about the challenges in
 
 
 ### Date/Location
-- Mar 26, 2023, afternoon session (1:40 -- 5:00 PM PDT).
-- Junior AB (3rd floor), Sheraton Vancouver Wall Centre [Venue Map](https://asplos-conference.org/venue-map){: .btn .btn--info}
-- Vancouver, Canada.
-- fyi: During the ASPLOS 2023 registration process, **attendees are requested to specify their intention to attend the ASTRA-sim tutorial** on the registration form.
+- Mar 26, 2023, afternoon session (1:40 -- 5:00 PM PDT)
+- Junior AB (3rd floor), Sheraton Vancouver Wall Centre
+- Vancouver, Canada
+
+[Venue Map](https://asplos-conference.org/venue-map){: .btn .btn--info}
+<!-- - fyi: During the ASPLOS 2023 registration process, **attendees are requested to specify their intention to attend the ASTRA-sim tutorial** on the registration form. -->
 
 
 ## Description
@@ -81,43 +83,66 @@ The tutorial targets students, faculty, and researchers who want to
 
 | Time (PDT) | Time (EDT) | Agenda | Presenter | Resources |
 |:---:|:---:|---|:---:|:---:|
-| **1:40 PM** | **4:40 PM** | **Introduction to Distributed DL Training** | Tushar | |
+| **1:40 PM** | **4:40 PM** | **Introduction to Distributed DL Training** | Tushar | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
 | | | Training Platforms | | |
 | | | Parallelism Strategies | | |
 | | | Collective Communication | | |
 | **2:20 PM** | **5:20 PM** | **Training Systems Challenges:<br>An Industry Perspective from Meta** | Srinivas | |
 | **2:40 PM** | **5:40 PM** | **ASTRA-sim** | | |
-| | | Overview | Saeed | |
-| | | Workload Layer | Taekyung | |
+| | | Overview | Saeed | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
+| | | Workload Layer | Taekyung | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
 | **3:20 PM** | **6:20 PM** | **Coffee Break** | | |
 | **3:40 PM** | **6:40 PM** | **ASTRA-sim** | | |
-| | | System Layer | Saeed | |
-| | | Network Layer | William | |
-| **4:20 PM** | **7:20 PM** | **Demo** | William | |
-| | | Profiling Collectives Using ASTRA-sim | | |
-| | | Comparing Systems | | |
-| **4:50 PM** | **7:50 PM** | **Closing Remarks and Questions** | Taekyung | |
+| | | System Layer | Saeed | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
+| | | Network Layer | William | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
+| **4:20 PM** | **7:20 PM** | **Demo** | | |
+| | | Profiling Collectives Using ASTRA-sim | William | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
+| | | Comparing Systems | William | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
+| **4:50 PM** | **7:50 PM** | **Closing Remarks and Questions** | Taekyung | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
 
 
 ## Resources
 ### Installation
 [Installation](/tutorials/asplos-2023/installation){: .btn .btn--info}
 
-### Papers
-```latex
-@inproceedings{astrasim2,
-    author={William Won and 
-            Taekyung Heo and 
-            Saeed Rashidi and 
-            Srinivas Sridharan and
-            Sudarshan Srinivasan and
-            Tushar Krishna},    
-    {% raw %}title={{ASTRA-sim2.0}: Modeling Hierarchical Networks and Disaggregated Systems for Large-model Training at Scale},{% endraw %}
-    booktitle={IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)},
-    year={2023}
-}
-```
+### ASTRA-sim Papers
+William Won, Taekyung Heo, Saeed Rashidi, Srinivas Sridharan, Sudarshan Srinivasan, and Tushar Krishna,
+"**ASTRA-sim2.0: Modeling Hierarchical Networks and Disaggregated Systems for Large-model Training at Scale,**"
+In *Proc. of the IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)*, 2023.
+{: .notice--info}
 <a href="#" onclick="alert('We will provide a link to the paper as soon as it becomes available online.'); return false;" class="btn btn--success">arXiv (to appear)</a>
+
+Saeed Rashidi, Srinivas Sridharan, Sudarshan Srinivasan, and Tushar Krishna,
+"**ASTRA-SIM: Enabling SW/HW Co-Design Exploration for Distributed DL Training Platforms,**"
+In *Proc. of the IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)*, 2020.
+{: .notice--info}
+[pdf](https://sites.gatech.edu/ece-synergy/files/2020/08/astrasim_ispass2020.pdf){: .btn .btn--success}
+
+<!-- ### Papers
+Saeed Rashidi, Srinivas Sridharan, Sudarshan Srinivasan, and Tushar Krishna,
+"**Impact of RoCE Congestion Control Policies on Distributed Training of DNNs,**"
+In *Proc. of the 29th International Symposium on High-Performance Interconnects (HOTI)*, 2022.
+{: .notice--info}
+[pdf](https://arxiv.org/pdf/2207.10898.pdf){: .btn .btn--success}
+
+Saeed Rashidi, William Won, Sudarshan Srinivasan, Srinivas Sridharan, and Tushar Krishna,
+"**Themis: A Network Bandwidth-Aware Collective Scheduling Policy for Distributed Training of DL Models,**"
+In *Proc. of 49th International Symposium on Computer Architecture (ISCA)*, 2022.
+{: .notice--info}
+[pdf](https://arxiv.org/pdf/2110.04478.pdf){: .btn .btn--success}
+
+Saeed Rashidi, Srinivas Sridharan, Sudarshan Srinivasan, Matthew Denton, Amoghavarsha Suresh, Jade Nie, and Tushar Krishna,
+"**Enabling Compute-Communication Overlap in Distributed Training Platforms,**"
+In *Proc. of 48th International Symposium on Computer Architecture (ISCA)*, 2021.
+{: .notice--info}
+[pdf](https://arxiv.org/pdf/2110.04478.pdf){: .btn .btn--success}
+
+Saeed Rashidi, Pallavi Shurpali, Srinivas Sridharan, Naader Hassani, Dheevatsa Mudigere, Krishnakumar Nair, Misha Smelyanski, and Tushar Krishna,
+"**Scalable Distributed Training of Recommendation Models:An ASTRA-SIM + NS3 case-study with TCP/IP transport,**"
+In *Proc. of the 27th International Symposium on High-Performance Interconnects (HOTI)*, 2020.
+{: .notice--info}
+[pdf](https://bpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/c/332/files/2020/09/astrasim-ns3_hoti2020.pdf){: .btn .btn--success}
+ -->
 
 ### Repositories
 [ASTRA-sim](https://github.com/astra-sim/astra-sim){: .btn .btn--info}
