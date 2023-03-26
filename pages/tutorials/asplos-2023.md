@@ -12,6 +12,7 @@ In this tutorial, we will educate the research community about the challenges in
 
 ### Date/Location
 - Mar 26, 2023, afternoon session (1:40 -- 5:00 PM PDT).
+- Junior AB (3rd floor), Sheraton Vancouver Wall Centre [Venue Map](https://asplos-conference.org/venue-map){: .btn .btn--info}
 - Vancouver, Canada.
 - fyi: During the ASPLOS 2023 registration process, **attendees are requested to specify their intention to attend the ASTRA-sim tutorial** on the registration form.
 
