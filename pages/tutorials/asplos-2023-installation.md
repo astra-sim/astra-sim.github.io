@@ -60,9 +60,9 @@ cd tutorials/asplos2023
 ./build_congestion.sh
 ```
 
-## Run Exercise 1
+## Run Exercise 1-1
 ```bash
-./exercise_1/exercise_1.sh
+./exercise_1/exercise_1-1.sh
 ```
 
 When execution fails, please check if ASTRA-sim is successfully compiled.
@@ -91,9 +91,9 @@ docker run -it astrasim/tutorial-asplos2023
 ./build_congestion.sh
 ```
 
-## Run Exercise 1
+## Run Exercise 1-1
 ```bash
-./exercise_1/exercise_1.sh
+./exercise_1/exercise_1-1.sh
 ```
 
 <nav class="pagination">
