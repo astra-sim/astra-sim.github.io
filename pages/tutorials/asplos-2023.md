@@ -98,6 +98,7 @@ The tutorial targets students, faculty, and researchers who want to
 | **4:20 PM** | **7:20 PM** | **Demo** | | |
 | | | Profiling Collectives Using ASTRA-sim | William | [Slide](/assets/tutorials/asplos-2023/4_1_asplos2023_tutorial_Will_demo_exercise_1.pdf){: .btn .btn--success .btn--small} |
 | | | Comparing Systems | William | [Slide](/assets/tutorials/asplos-2023/4_2_asplos2023_tutorial_Will_demo_exercise_2.pdf){: .btn .btn--success .btn--small} |
+| | | Advanced ASTRA-sim Topics | William | [Slide](/assets/tutorials/asplos-2023/4_3_asplos2023_tutorial_Will_demo_exercise_3.pdf){: .btn .btn--success .btn--small} |
 | **4:50 PM** | **7:50 PM** | **Closing Remarks and Questions** | Taekyung | [Slide](/assets/tutorials/asplos-2023/5_asplos2023_tutorial_Taekyung_next_steps.pdf){: .btn .btn--success .btn--small} |
 
 
