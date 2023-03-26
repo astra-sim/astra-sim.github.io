@@ -83,22 +83,22 @@ The tutorial targets students, faculty, and researchers who want to
 
 | Time (PDT) | Time (EDT) | Agenda | Presenter | Resources |
 |:---:|:---:|---|:---:|:---:|
-| **1:40 PM** | **4:40 PM** | **Introduction to Distributed DL Training** | Tushar | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
+| **1:40 PM** | **4:40 PM** | **Introduction to Distributed DL Training** | Tushar | [Slide](/assets/tutorials/asplos-2023/1_asplos2023_introduction.pdf){: .btn .btn--success .btn--small} |
 | | | Training Platforms | | |
 | | | Parallelism Strategies | | |
 | | | Collective Communication | | |
 | **2:20 PM** | **5:20 PM** | **Training Systems Challenges:<br>An Industry Perspective from Meta** | Srinivas | |
 | **2:40 PM** | **5:40 PM** | **ASTRA-sim** | | |
-| | | Overview | Saeed | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
-| | | Workload Layer | Taekyung | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
+| | | Overview | Saeed | [Slide](/assets/tutorials/asplos-2023/3_1_asplos2023_tutorial_Saeed_overview.pdf){: .btn .btn--success .btn--small} |
+| | | Workload Layer | Taekyung | [Slide](/assets/tutorials/asplos-2023/3_2_asplos2023_tutorial_Taekyung_workload_layer.pdf){: .btn .btn--success .btn--small} |
 | **3:20 PM** | **6:20 PM** | **Coffee Break** | | |
 | **3:40 PM** | **6:40 PM** | **ASTRA-sim** | | |
-| | | System Layer | Saeed | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
-| | | Network Layer | William | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
+| | | System Layer | Saeed | [Slide](/assets/tutorials/asplos-2023/3_3_asplos2023_tutorial_Saeed_system_layer.pdf){: .btn .btn--success .btn--small} |
+| | | Network Layer | William | [Slide](/assets/tutorials/asplos-2023/3_4_asplos2023_tutorial_William_network_layer.pdf){: .btn .btn--success .btn--small} |
 | **4:20 PM** | **7:20 PM** | **Demo** | | |
-| | | Profiling Collectives Using ASTRA-sim | William | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
-| | | Comparing Systems | William | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
-| **4:50 PM** | **7:50 PM** | **Closing Remarks and Questions** | Taekyung | [Slide](/assets/tutorials/asplos-2023/.pdf){: .btn .btn--success .btn--small} |
+| | | Profiling Collectives Using ASTRA-sim | William | [Slide](/assets/tutorials/asplos-2023/4_1_asplos2023_tutorial_Will_demo_exercise_1.pdf){: .btn .btn--success .btn--small} |
+| | | Comparing Systems | William | [Slide](/assets/tutorials/asplos-2023/4_2_asplos2023_tutorial_Will_demo_exercise_2.pdf){: .btn .btn--success .btn--small} |
+| **4:50 PM** | **7:50 PM** | **Closing Remarks and Questions** | Taekyung | [Slide](/assets/tutorials/asplos-2023/5_asplos2023_tutorial_Taekyung_next_steps.pdf){: .btn .btn--success .btn--small} |
 
 
 ## Resources
