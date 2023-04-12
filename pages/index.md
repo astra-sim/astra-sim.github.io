@@ -16,7 +16,7 @@ intro:
 mlsys_2022_tutorial:
   - image_path: /assets/images/tutorials/asplos-2023/banner-vancouver.jpg
     title: "ASTRA-sim Tutorial @ ASPLOS 2023"
-    excerpt: "We're running an ASTRA-sim tutorial at ASPLOS 2023.<br>Mar 26, 2023<br>Vancouver, Canada."
+    excerpt: "We successfully delivered the ASTRA-sim tutorial at ASPLOS 2023.<br>Mar 26, 2023<br>Vancouver, Canada."
     url: "/tutorials/asplos-2023"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -47,7 +47,7 @@ The full description of the tool and its strength can be found in these papers.
 
 
 ### ASTRA-sim2.0 (ISPASS 2023)
-<a href="#" onclick="alert('We will provide a link to the paper as soon as it becomes available online.'); return false;" class="btn btn--primary">pdf</a>
+[paper](https://arxiv.org/abs/2303.14006){: .btn .btn--success}
 <a href="#" onclick="alert('We will provide a link to the slides as soon as it becomes available online.'); return false;" class="btn btn--primary">slides</a>
 <a href="#" onclick="alert('We will provide a link to the presentation video as soon as it becomes available online.'); return false;" class="btn btn--primary">pdf</a>
 
@@ -71,7 +71,7 @@ In *Proc. of the IEEE International Symposium on Performance Analysis of Systems
 ```
 
 ### ASTRA-sim (ISPASS 2020)
-[pdf](https://sites.gatech.edu/ece-synergy/files/2020/08/astrasim_ispass2020.pdf){: .btn .btn--success}
+[paper](https://sites.gatech.edu/ece-synergy/files/2020/08/astrasim_ispass2020.pdf){: .btn .btn--success}
 [slides](https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/c/332/files/2020/08/ISPASS2020-ASTRA-SIM_talk.pdf){: .btn .btn--success}
 [video](https://www.youtube.com/watch?v=S-HE9yBv8_I&list=PLHJB2bhmgB7crXM7wBKIDi7OEa0UTZtrR&index=10){: .btn .btn--danger}
 

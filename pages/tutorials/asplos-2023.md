@@ -111,13 +111,13 @@ William Won, Taekyung Heo, Saeed Rashidi, Srinivas Sridharan, Sudarshan Srinivas
 "**ASTRA-sim2.0: Modeling Hierarchical Networks and Disaggregated Systems for Large-model Training at Scale,**"
 In *Proc. of the IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)*, 2023.
 {: .notice--info}
-<a href="#" onclick="alert('We will provide a link to the paper as soon as it becomes available online.'); return false;" class="btn btn--success">arXiv (to appear)</a>
+[paper](https://arxiv.org/abs/2303.14006){: .btn .btn--success}
 
 Saeed Rashidi, Srinivas Sridharan, Sudarshan Srinivasan, and Tushar Krishna,
 "**ASTRA-SIM: Enabling SW/HW Co-Design Exploration for Distributed DL Training Platforms,**"
 In *Proc. of the IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)*, 2020.
 {: .notice--info}
-[pdf](https://sites.gatech.edu/ece-synergy/files/2020/08/astrasim_ispass2020.pdf){: .btn .btn--success}
+[paper](https://sites.gatech.edu/ece-synergy/files/2020/08/astrasim_ispass2020.pdf){: .btn .btn--success}
 
 <!-- ### Papers
 Saeed Rashidi, Srinivas Sridharan, Sudarshan Srinivasan, and Tushar Krishna,
