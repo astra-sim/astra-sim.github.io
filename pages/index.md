@@ -48,8 +48,9 @@ The full description of the tool and its strength can be found in these papers.
 
 ### ASTRA-sim2.0 (ISPASS 2023)
 [paper](https://arxiv.org/abs/2303.14006){: .btn .btn--success}
-<a href="#" onclick="alert('We will provide a link to the slides as soon as it becomes available online.'); return false;" class="btn btn--primary">slides</a>
-<a href="#" onclick="alert('We will provide a link to the presentation video as soon as it becomes available online.'); return false;" class="btn btn--primary">pdf</a>
+[slides](/assets/papers/astra-sim2/ASTRA-sim2-ISPASS_2023.pdf){: .btn .btn--success}
+<!-- [video](){: .btn .btn--danger} -->
+<a href="#" onclick="alert('We will provide a link to the presentation video as soon as it becomes available online.'); return false;" class="btn btn--primary">video</a>
 
 William Won\*, Taekyung Heo\*, Saeed Rashidi\*, Srinivas Sridharan, Sudarshan Srinivasan, and Tushar Krishna,
 "ASTRA-sim2.0: Modeling Hierarchical Networks and Disaggregated Systems for Large-model Training at Scale,"
