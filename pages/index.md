@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/banner.jpg
   actions:
     - label: "Get Started"
-      url: "/docs"
+      url: "pages/docs"
     - label: "Tutorials"
       url: "/tutorials"
 excerpt: "An Open-source Distributed Deep Learning Training Simulator Infrastructure"

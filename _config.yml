@@ -13,6 +13,9 @@ plugins:
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"  # Color scheme configuration
 
+# Include HTML Files Built by Sphinx (Needed by Project ASTRA-sim-doc)
+include: ["_static"]
+
 # Author
 lab: "Synergy Lab"
 github_username: "astra-sim"
