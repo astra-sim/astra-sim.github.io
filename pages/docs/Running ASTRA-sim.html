@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Running ASTRA-sim &mdash; ASTRA-sim 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="ASTRA-sim Output" href="ASTRA-sim%20Output.html" />
+    <link rel="prev" title="Installation" href="Installation.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> ASTRA-sim
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="Getting%20Started.html">Getting Started</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Installation.html">Installation</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Running ASTRA-sim</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#argument-workload-config">Argument ${WORKLOAD_CONFIG}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#argument-system-config">Argument ${SYSTEM_CONFIG}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#argument-network-config">Argument ${NETWORK_CONFIG}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#using-execution-trace-generator-et-generator">Using Execution Trace Generator (et_generator)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#using-execution-trace-converter-et-converter">Using Execution Trace Converter (et_converter)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ASTRA-sim%20Output.html">ASTRA-sim Output</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ASTRA-sim</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="Getting%20Started.html">Getting Started</a> &raquo;</li>
+      <li>Running ASTRA-sim</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Running ASTRA-sim.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="running-astra-sim">
+<h1>Running ASTRA-sim<a class="headerlink" href="#running-astra-sim" title="Permalink to this headline"></a></h1>
+<p>Once ASTRA-sim is built, the executable ${BINARY} is located at:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp"># </span>For the analytical network backend
+<span class="gp">$ </span><span class="o">{</span>ASTRA_SIM<span class="o">}</span>/build/astra_analytical/build/AnalyticalAstra/bin/AnalyticalAstra
+</pre></div>
+</div>
+<p>Conduct experiments by passing the required aruguments:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="si">${</span><span class="nv">BINARY</span><span class="si">}</span> <span class="se">\</span>
+  --workload-configuration<span class="o">=</span><span class="si">${</span><span class="nv">WORKLOAD_CONFIG</span><span class="si">}</span> <span class="se">\</span>
+  --system-configuration<span class="o">=</span><span class="si">${</span><span class="nv">SYSTEM_CONFIG</span><span class="si">}</span> <span class="se">\</span>
+  --network-configuration<span class="o">=</span><span class="si">${</span><span class="nv">NETWORK_CONFIG</span><span class="si">}</span> <span class="se">\</span>
+  --memory-configuration<span class="o">=</span><span class="si">${</span><span class="nv">ASTRA_SIM</span><span class="si">}</span>/inputs/memory/analytical/no_memory_expansion.json
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Additional arguments may be required based on the type of network backend.</p>
+</div>
+<section id="argument-workload-config">
+<h2>Argument ${WORKLOAD_CONFIG}<a class="headerlink" href="#argument-workload-config" title="Permalink to this headline"></a></h2>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">--workload-configuration: path to the prefix of execution trace files</span>
+</pre></div>
+</div>
+<p>The naming rule for execution traces follows the format {path_prefix}.{npu_id}.eg.</p>
+</section>
+<section id="argument-system-config">
+<h2>Argument ${SYSTEM_CONFIG}<a class="headerlink" href="#argument-system-config" title="Permalink to this headline"></a></h2>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">--system-configuration: path to the system configuration file</span>
+</pre></div>
+</div>
+<p>Example system configurations can be found at:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span><span class="o">{</span>ASTRA_SIM<span class="o">}</span>/inputs/system/
+</pre></div>
+</div>
+</section>
+<section id="argument-network-config">
+<h2>Argument ${NETWORK_CONFIG}<a class="headerlink" href="#argument-network-config" title="Permalink to this headline"></a></h2>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">--network-configuration: path to the network configuration file</span>
+</pre></div>
+</div>
+<p>Example network configurations can be found at</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span><span class="o">{</span>ASTRA_SIM<span class="o">}</span>/inputs/network/
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Execution traces can be created using Chakra tools. You have the option of using either execution trace generator (et_generator) or execution trace converter (et_converter).</p>
+</div>
+</section>
+<section id="using-execution-trace-generator-et-generator">
+<h2>Using Execution Trace Generator (et_generator)<a class="headerlink" href="#using-execution-trace-generator-et-generator" title="Permalink to this headline"></a></h2>
+<p>et_generator can be used to define and generate any execution traces, functioning as a test case generator. You can generate execution traces with the following commands:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="nb">cd</span> <span class="o">{</span>ASTRA_SIM<span class="o">}</span>/extern/graph_frontend/chakra/et_generator
+<span class="gp">$ </span>cmake CMakeLists.txt <span class="o">&amp;&amp;</span> make -j<span class="k">$(</span>nproc<span class="k">)</span>
+<span class="gp">$ </span>./et_generator --num_npus <span class="m">64</span> --num_dims <span class="m">1</span>
+</pre></div>
+</div>
+<p>To run one of the example traces (twoCompNodesDependent), execute the following command:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="nb">cd</span> -
+<span class="gp">$ </span>./build/astra_analytical/build/AnalyticalAstra/bin/AnalyticalAstra <span class="se">\</span>
+  --workload-configuration<span class="o">=</span>./extern/graph_frontend/chakra/et_generator/twoCompNodesDependent <span class="se">\</span>
+  --system-configuration<span class="o">=</span>./inputs/system/sample_fully_connected_sys.txt <span class="se">\</span>
+  --network-configuration<span class="o">=</span>./inputs/network/analytical/fully_connected.json <span class="se">\</span>
+  --memory-configuration<span class="o">=</span>./inputs/memory/analytical/no_memory_expansion.json
+</pre></div>
+</div>
+<p>Upon completion, ASTRA-sim will display the number of cycles it took to run the simulation.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sys[0] finished, 10 cycles</span>
+<span class="go">sys[1] finished, 10 cycles</span>
+<span class="go">...</span>
+<span class="go">sys[62] finished, 10 cycles</span>
+<span class="go">sys[63] finished, 10 cycles</span>
+</pre></div>
+</div>
+</section>
+<section id="using-execution-trace-converter-et-converter">
+<h2>Using Execution Trace Converter (et_converter)<a class="headerlink" href="#using-execution-trace-converter-et-converter" title="Permalink to this headline"></a></h2>
+<p>et_converter is a trace schema conversion tool, supporting PyTorch and FlexFlow execution traces, as well as ASTRA-sim 1.0 input files. You can convert ASTRA-sim 1.0 text input files into Chakra traces with the following commands:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="nb">cd</span> <span class="o">{</span>ASTRA_SIM<span class="o">}</span>/extern/graph_frontend/chakra/
+<span class="gp">$ </span>python3 setup.py install --user
+<span class="gp">$ </span>python3 -m et_converter.et_converter <span class="se">\</span>
+    --input_type Text <span class="se">\</span>
+    --input_filename ../../../inputs/workload/ASTRA-sim-1.0/Resnet50_DataParallel.txt <span class="se">\</span>
+    --output_filename ../../../inputs/workload/ASTRA-sim-2.0/Resnet50_DataParallel <span class="se">\</span>
+    --num_npus <span class="m">64</span> <span class="se">\</span>
+    --num_dims <span class="m">1</span> <span class="se">\</span>
+    --num_passes <span class="m">1</span>
+</pre></div>
+</div>
+<p>Run the following command:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="nb">cd</span> -
+<span class="gp">$ </span>./build/astra_analytical/build/AnalyticalAstra/bin/AnalyticalAstra <span class="se">\</span>
+  --workload-configuration<span class="o">=</span>./inputs/workload/ASTRA-sim-2.0/Resnet50_DataParallel <span class="se">\</span>
+  --system-configuration<span class="o">=</span>./inputs/system/sample_fully_connected_sys.txt <span class="se">\</span>
+  --network-configuration<span class="o">=</span>./inputs/network/analytical/fully_connected.json <span class="se">\</span>
+  --memory-configuration<span class="o">=</span>./inputs/memory/analytical/no_memory_expansion.json
+</pre></div>
+</div>
+<p>Upon completion, ASTRA-sim will display the number of cycles it took to run the simulation.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sys[62] finished, 187442108 cycles</span>
+<span class="go">sys[61] finished, 187442108 cycles</span>
+<span class="go">...</span>
+<span class="go">sys[0] finished, 187442108 cycles</span>
+<span class="go">sys[63] finished, 187442108 cycles</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Installation.html" class="btn btn-neutral float-left" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="ASTRA-sim%20Output.html" class="btn btn-neutral float-right" title="ASTRA-sim Output" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Synergy Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
