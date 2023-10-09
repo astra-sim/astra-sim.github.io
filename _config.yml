@@ -7,6 +7,7 @@ url: "https://astra-sim.github.io"
 # Plugins
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
   - jekyll-include-cache
 
 # Themes
