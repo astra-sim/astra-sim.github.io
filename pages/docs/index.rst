@@ -15,4 +15,4 @@ Indices and tables
 ==================
 .. toctree::
 
-   Search Page
+* :ref:`search`

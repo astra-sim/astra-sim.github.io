@@ -100,6 +100,10 @@
 </pre></div>
 </div>
 <p>The naming rule for execution traces follows the format {path_prefix}.{npu_id}.eg.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Execution traces can be created using Chakra tools. You have the option of using either execution trace generator (et_generator) or execution trace converter (et_converter).</p>
+</div>
 </section>
 <section id="argument-system-config">
 <h2>Argument ${SYSTEM_CONFIG}<a class="headerlink" href="#argument-system-config" title="Permalink to this headline"></a></h2>
@@ -109,6 +113,53 @@
 <p>Example system configurations can be found at:</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span><span class="o">{</span>ASTRA_SIM<span class="o">}</span>/inputs/system/
 </pre></div>
+</div>
+<ul>
+<li><p><strong>scheduling-policy</strong>: (LIFO/FIFO)</p>
+<p>The order we proritize collectives according based on their time of arrival. LIFO means that most recently created collectives have higher priority. While FIFO is the reverse.</p>
+</li>
+<li><p><strong>intra-dimension-scheduling</strong>: (FIFO/SCF)</p>
+<p>The order we proritize collective chunks inside each dimension. FIFO means that the least recently created collectives have higher priority. SCF means that the smallest chunk have higher priority.</p>
+</li>
+<li><p><strong>inter-dimension-scheduling</strong>: (baseline/themis)</p>
+<p>The order we proritize collective chunks across multiple dimensions. baseline means that the scheduling always uses a constant schedule for all chunks. themis means that the scheduling issues chunks to the dimension with least load.</p>
+</li>
+<li><p><strong>endpoint-delay</strong>: (int)</p>
+<p>The time NPU spends processing a message after receiving it in terms of cycles.</p>
+</li>
+<li><p><strong>active-chunks-per-dimension</strong>: (int)</p>
+<p>This corresponds to the Maximum number of chunks we like execute in parallel on
+each logical dimesnion of topology.</p>
+</li>
+<li><p><strong>preferred-dataset-splits</strong>: (int)</p>
+<p>The number of chunks we divide each collective into.</p>
+</li>
+<li><p><strong>all-reduce-implementation</strong>: (Dimension0Collective_Dimension1Collective_xxx_DimensionNCollective)</p>
+<p>Here we can create a multiphase colective all-reduce algorithm and directly specify the collective algorithm type for each logical dimension. The available options (algorithms) are: ring, direct, doubleBinaryTree, oneRing, oneDirect.</p>
+<p>For example, “ring_doubleBinaryTree” means we create a logical topology with 2 dimensions and we perform ring algorithm on the first dimension followed by double binary tree on the second dimension for the all-reduce pattern. Hence the number of physical dimension should be equal to the number of logical dimensions. The only exceptions are oneRing/oneDirect where we assume no matter how many physical dimensions we have, we create a one big logical ring/direct(AllToAll) topology where all NPUs are connected and perfrom a one phase ring/direct algorithm.</p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>oneRing and oneDirect is not available for Garnet Backend in this version.</p>
+</div>
+<ul>
+<li><p><strong>reduce-scatter-implementation</strong>:    (Dimension0CollectiveAlg_Dimension1CollectiveAlg_xxx_DimensionNCollectiveAlg)</p>
+<p>The same as “all-reduce-implementation:” but for reduce-scatter collective. The available options are: ring, direct, oneRing, oneDirect.</p>
+</li>
+<li><p><strong>all-gather-implementation</strong>: (Dimension0CollectiveAlg_Dimension1CollectiveAlg_xxx_DimensionNCollectiveAlg)</p>
+<p>The same as “all-reduce-implementation:” but for all-gather collective. The available options (algorithms) are: ring, direct, oneRing, oneDirect.</p>
+</li>
+<li><p><strong>all-to-all-implementation</strong>: (Dimension0CollectiveAlg_Dimension1CollectiveAlg_xxx_DimensionNCollectiveAlg)</p>
+<p>The same as “all-reduce-implementation:” but for all-to-all collective. The available options (algorithms) are: ring, direct, oneRing, oneDirect.</p>
+</li>
+<li><p><strong>collective-optimization</strong>: (baseline/localBWAware)</p>
+<p>baseline issues allreduce across all dimensions to handle allreduce of single chunk. While for an N-dimensional network, localBWAware issues a series of reduce-scatters on all dimensions from dim1 to dimN-1, followed by all-reduce on dimN, and then series of all-gathers starting from dimN-1 to dim1. This optimization is used to reduce the chunk size as it goes to the next network dimensions.</p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The default clock cycle period is 1ns (1 Ghz feq). This value is defined inside Sys.hh. One can change it to any number. It will be a configurable command line parameter in the later versions.</p>
 </div>
 </section>
 <section id="argument-network-config">
@@ -120,10 +171,27 @@
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span><span class="o">{</span>ASTRA_SIM<span class="o">}</span>/inputs/network/
 </pre></div>
 </div>
+<ul class="simple">
+<li><p><strong>topology-name</strong>: (string) put “Hierarchical”</p></li>
+<li><p><strong>dimensions-count</strong>: (uint) number of network dimensions</p></li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Execution traces can be created using Chakra tools. You have the option of using either execution trace generator (et_generator) or execution trace converter (et_converter).</p>
+<p>Each configurations below is represented as an array of size <strong>dimensions-count</strong>, indexed by the dimension level.</p>
 </div>
+<ul class="simple">
+<li><p><strong>topologies-per-dim</strong>: (string) network topology (“Ring”, “FullyConnected”, or “Switch”)</p></li>
+<li><p><strong>dimension-type</strong>: (string) dimension type (“Tile”, “Package”, “Node”, or “Pod”)</p></li>
+<li><p><strong>units-count</strong>: (uint) number of GPUs</p></li>
+<li><p><strong>links-count</strong>: (uint) number of links</p></li>
+<li><p><strong>link-latency</strong>: (uint) link latency (ns)</p></li>
+<li><p><strong>link-bandwidth</strong>: (uint) link bandwidth (GB/s or B/ns)</p></li>
+<li><p><strong>nic-latency</strong>: (uint) nic latency (ns)</p></li>
+<li><p><strong>router-latency</strong>: (uint) router latency (ns)</p></li>
+<li><p><strong>hbm-latency</strong>: (uint) memory latency (ns)</p></li>
+<li><p><strong>hbm-bandwidth</strong>: (uint) memory bandwidth (GB/s or B/ns)</p></li>
+<li><p><strong>hbm-scale</strong>: (uint) memory scaling factor</p></li>
+</ul>
 </section>
 <section id="using-execution-trace-generator-et-generator">
 <h2>Using Execution Trace Generator (et_generator)<a class="headerlink" href="#using-execution-trace-generator-et-generator" title="Permalink to this headline"></a></h2>
