@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Argument ${SYSTEM_CONFIG} &mdash; ASTRA-sim 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Argument ${NETWORK_CONFIG}" href="Argument%20%24%7BNETWORK_CONFIG%7D.html" />
+    <link rel="prev" title="Argument ${WORKLOAD_CONFIG}" href="Argument%20%24%7BWORKLOAD_CONFIG%7D.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> ASTRA-sim
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="Getting%20Started.html">Getting Started</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Installation.html">Installation</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="Running%20ASTRA-sim.html">Running ASTRA-sim</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="Argument%20%24%7BWORKLOAD_CONFIG%7D.html">Argument ${WORKLOAD_CONFIG}</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Argument ${SYSTEM_CONFIG}</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Argument%20%24%7BNETWORK_CONFIG%7D.html">Argument ${NETWORK_CONFIG}</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ASTRA-sim%20Output.html">ASTRA-sim Output</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ASTRA-sim</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="Getting%20Started.html">Getting Started</a> &raquo;</li>
+          <li><a href="Running%20ASTRA-sim.html">Running ASTRA-sim</a> &raquo;</li>
+      <li>Argument ${SYSTEM_CONFIG}</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Argument ${SYSTEM_CONFIG}.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="argument-system-config">
+<h1>Argument ${SYSTEM_CONFIG}<a class="headerlink" href="#argument-system-config" title="Permalink to this headline"></a></h1>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">--system-configuration: path to the system configuration file</span>
+</pre></div>
+</div>
+<p>Example system configurations can be found at:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span><span class="o">{</span>ASTRA_SIM<span class="o">}</span>/inputs/system/
+</pre></div>
+</div>
+<ul>
+<li><p><strong>scheduling-policy</strong>: (LIFO/FIFO)</p>
+<p>The order we proritize collectives according based on their time of arrival. LIFO means that most recently created collectives have higher priority. While FIFO is the reverse.</p>
+</li>
+<li><p><strong>intra-dimension-scheduling</strong>: (FIFO/SCF)</p>
+<p>The order we proritize collective chunks inside each dimension. FIFO means that the least recently created collectives have higher priority. SCF means that the smallest chunk have higher priority.</p>
+</li>
+<li><p><strong>inter-dimension-scheduling</strong>: (baseline/themis)</p>
+<p>The order we proritize collective chunks across multiple dimensions. baseline means that the scheduling always uses a constant schedule for all chunks. themis means that the scheduling issues chunks to the dimension with least load.</p>
+</li>
+<li><p><strong>endpoint-delay</strong>: (int)</p>
+<p>The time NPU spends processing a message after receiving it in terms of cycles.</p>
+</li>
+<li><p><strong>active-chunks-per-dimension</strong>: (int)</p>
+<p>This corresponds to the Maximum number of chunks we like execute in parallel on
+each logical dimesnion of topology.</p>
+</li>
+<li><p><strong>preferred-dataset-splits</strong>: (int)</p>
+<p>The number of chunks we divide each collective into.</p>
+</li>
+<li><p><strong>all-reduce-implementation</strong>: (Dimension0Collective_Dimension1Collective_xxx_DimensionNCollective)</p>
+<p>Here we can create a multiphase colective all-reduce algorithm and directly specify the collective algorithm type for each logical dimension. The available options (algorithms) are: ring, direct, doubleBinaryTree, oneRing, oneDirect.</p>
+<p>For example, “ring_doubleBinaryTree” means we create a logical topology with 2 dimensions and we perform ring algorithm on the first dimension followed by double binary tree on the second dimension for the all-reduce pattern. Hence the number of physical dimension should be equal to the number of logical dimensions. The only exceptions are oneRing/oneDirect where we assume no matter how many physical dimensions we have, we create a one big logical ring/direct(AllToAll) topology where all NPUs are connected and perfrom a one phase ring/direct algorithm.</p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>oneRing and oneDirect is not available for Garnet Backend in this version.</p>
+</div>
+<ul>
+<li><p><strong>reduce-scatter-implementation</strong>:    (Dimension0CollectiveAlg_Dimension1CollectiveAlg_xxx_DimensionNCollectiveAlg)</p>
+<p>The same as “all-reduce-implementation:” but for reduce-scatter collective. The available options are: ring, direct, oneRing, oneDirect.</p>
+</li>
+<li><p><strong>all-gather-implementation</strong>: (Dimension0CollectiveAlg_Dimension1CollectiveAlg_xxx_DimensionNCollectiveAlg)</p>
+<p>The same as “all-reduce-implementation:” but for all-gather collective. The available options (algorithms) are: ring, direct, oneRing, oneDirect.</p>
+</li>
+<li><p><strong>all-to-all-implementation</strong>: (Dimension0CollectiveAlg_Dimension1CollectiveAlg_xxx_DimensionNCollectiveAlg)</p>
+<p>The same as “all-reduce-implementation:” but for all-to-all collective. The available options (algorithms) are: ring, direct, oneRing, oneDirect.</p>
+</li>
+<li><p><strong>collective-optimization</strong>: (baseline/localBWAware)</p>
+<p>baseline issues allreduce across all dimensions to handle allreduce of single chunk. While for an N-dimensional network, localBWAware issues a series of reduce-scatters on all dimensions from dim1 to dimN-1, followed by all-reduce on dimN, and then series of all-gathers starting from dimN-1 to dim1. This optimization is used to reduce the chunk size as it goes to the next network dimensions.</p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The default clock cycle period is 1ns (1 Ghz feq). This value is defined inside Sys.hh. One can change it to any number. It will be a configurable command line parameter in the later versions.</p>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Argument%20%24%7BWORKLOAD_CONFIG%7D.html" class="btn btn-neutral float-left" title="Argument ${WORKLOAD_CONFIG}" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Argument%20%24%7BNETWORK_CONFIG%7D.html" class="btn btn-neutral float-right" title="Argument ${NETWORK_CONFIG}" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Synergy Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

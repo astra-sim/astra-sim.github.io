@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Running ASTRA-sim &mdash; ASTRA-sim 1.0.0 documentation</title>
+  <title>Argument ${NETWORK_CONFIG} &mdash; ASTRA-sim 1.0.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   
@@ -15,8 +15,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Argument ${WORKLOAD_CONFIG}" href="Argument%20%24%7BWORKLOAD_CONFIG%7D.html" />
-    <link rel="prev" title="Installation" href="Installation.html" /> 
+    <link rel="next" title="ASTRA-sim Output" href="ASTRA-sim%20Output.html" />
+    <link rel="prev" title="Argument ${SYSTEM_CONFIG}" href="Argument%20%24%7BSYSTEM_CONFIG%7D.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -37,10 +37,10 @@
               <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="Getting%20Started.html">Getting Started</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="Installation.html">Installation</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Running ASTRA-sim</a><ul>
+<li class="toctree-l2 current"><a class="reference internal" href="Running%20ASTRA-sim.html">Running ASTRA-sim</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="Argument%20%24%7BWORKLOAD_CONFIG%7D.html">Argument ${WORKLOAD_CONFIG}</a></li>
 <li class="toctree-l3"><a class="reference internal" href="Argument%20%24%7BSYSTEM_CONFIG%7D.html">Argument ${SYSTEM_CONFIG}</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Argument%20%24%7BNETWORK_CONFIG%7D.html">Argument ${NETWORK_CONFIG}</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Argument ${NETWORK_CONFIG}</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="ASTRA-sim%20Output.html">ASTRA-sim Output</a></li>
@@ -63,9 +63,10 @@
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="Getting%20Started.html">Getting Started</a> &raquo;</li>
-      <li>Running ASTRA-sim</li>
+          <li><a href="Running%20ASTRA-sim.html">Running ASTRA-sim</a> &raquo;</li>
+      <li>Argument ${NETWORK_CONFIG}</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/Running ASTRA-sim.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/Argument ${NETWORK_CONFIG}.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -73,44 +74,44 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="running-astra-sim">
-<h1>Running ASTRA-sim<a class="headerlink" href="#running-astra-sim" title="Permalink to this headline"></a></h1>
-<p>Once ASTRA-sim is built, the executable ${BINARY} is located at:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp"># </span>For the analytical network backend
-<span class="gp">$ </span><span class="si">${</span><span class="nv">ASTRA_SIM</span><span class="si">}</span>/build/astra_analytical/build/AnalyticalAstra/bin/AnalyticalAstra
+  <section id="argument-network-config">
+<h1>Argument ${NETWORK_CONFIG}<a class="headerlink" href="#argument-network-config" title="Permalink to this headline"></a></h1>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">--network-configuration: path to the network configuration file</span>
 </pre></div>
 </div>
-<p>Conduct experiments by passing the required aruguments:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="si">${</span><span class="nv">BINARY</span><span class="si">}</span> <span class="se">\</span>
-  --workload-configuration<span class="o">=</span><span class="si">${</span><span class="nv">WORKLOAD_CONFIG</span><span class="si">}</span> <span class="se">\</span>
-  --system-configuration<span class="o">=</span><span class="si">${</span><span class="nv">SYSTEM_CONFIG</span><span class="si">}</span> <span class="se">\</span>
-  --network-configuration<span class="o">=</span><span class="si">${</span><span class="nv">NETWORK_CONFIG</span><span class="si">}</span> <span class="se">\</span>
-  --memory-configuration<span class="o">=</span><span class="si">${</span><span class="nv">ASTRA_SIM</span><span class="si">}</span>/inputs/memory/analytical/no_memory_expansion.json
+<p>Example network configurations can be found at</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span><span class="o">{</span>ASTRA_SIM<span class="o">}</span>/inputs/network/
 </pre></div>
 </div>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="Argument%20%24%7BWORKLOAD_CONFIG%7D.html">Argument ${WORKLOAD_CONFIG}</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="Argument%20%24%7BWORKLOAD_CONFIG%7D.html#using-execution-trace-generator-et-generator">Using Execution Trace Generator (et_generator)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Argument%20%24%7BWORKLOAD_CONFIG%7D.html#using-execution-trace-converter-et-converter">Using Execution Trace Converter (et_converter)</a></li>
+<ul class="simple">
+<li><p><strong>topology-name</strong>: (string) put “Hierarchical”</p></li>
+<li><p><strong>dimensions-count</strong>: (uint) number of network dimensions</p></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="Argument%20%24%7BSYSTEM_CONFIG%7D.html">Argument ${SYSTEM_CONFIG}</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Argument%20%24%7BNETWORK_CONFIG%7D.html">Argument ${NETWORK_CONFIG}</a></li>
-</ul>
-</div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Additional arguments may be required based on the type of network backend.</p>
+<p>Each configurations below is represented as an array of size <strong>dimensions-count</strong>, indexed by the dimension level.</p>
 </div>
+<ul class="simple">
+<li><p><strong>topologies-per-dim</strong>: (string) network topology (“Ring”, “FullyConnected”, or “Switch”)</p></li>
+<li><p><strong>dimension-type</strong>: (string) dimension type (“Tile”, “Package”, “Node”, or “Pod”)</p></li>
+<li><p><strong>units-count</strong>: (uint) number of GPUs</p></li>
+<li><p><strong>links-count</strong>: (uint) number of links</p></li>
+<li><p><strong>link-latency</strong>: (uint) link latency (ns)</p></li>
+<li><p><strong>link-bandwidth</strong>: (uint) link bandwidth (GB/s or B/ns)</p></li>
+<li><p><strong>nic-latency</strong>: (uint) nic latency (ns)</p></li>
+<li><p><strong>router-latency</strong>: (uint) router latency (ns)</p></li>
+<li><p><strong>hbm-latency</strong>: (uint) memory latency (ns)</p></li>
+<li><p><strong>hbm-bandwidth</strong>: (uint) memory bandwidth (GB/s or B/ns)</p></li>
+<li><p><strong>hbm-scale</strong>: (uint) memory scaling factor</p></li>
+</ul>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="Installation.html" class="btn btn-neutral float-left" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="Argument%20%24%7BWORKLOAD_CONFIG%7D.html" class="btn btn-neutral float-right" title="Argument ${WORKLOAD_CONFIG}" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Argument%20%24%7BSYSTEM_CONFIG%7D.html" class="btn btn-neutral float-left" title="Argument ${SYSTEM_CONFIG}" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="ASTRA-sim%20Output.html" class="btn btn-neutral float-right" title="ASTRA-sim Output" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
