@@ -4,5 +4,5 @@ Getting Started
 .. toctree::
 
   Installation
-  Running ASTRA-sim
-  ASTRA-sim Output
+  Running-ASTRA-sim
+  ASTRA-sim-Output

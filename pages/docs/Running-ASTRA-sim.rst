@@ -20,9 +20,9 @@ Conduct experiments by passing the required aruguments:
 
 .. toctree::
 
-  Argument ${WORKLOAD_CONFIG}
-  Argument ${SYSTEM_CONFIG}
-  Argument ${NETWORK_CONFIG}
+  Argument-WORKLOAD-CONFIG
+  Argument-SYSTEM-CONFIG
+  Argument-NETWORK-CONFIG
 
 .. note::
   Additional arguments may be required based on the type of network backend.

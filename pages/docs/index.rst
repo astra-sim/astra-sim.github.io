@@ -9,7 +9,7 @@ Welcome to ASTRA-sim's documentation!
 
 .. toctree::
 
-   Getting Started
+   Getting-Started
 
 Indices and tables
 ==================
