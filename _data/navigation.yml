@@ -1,9 +1,9 @@
 # Header titles and links
 main:
   - title: "Docs"
-    url: "/pages/docs/_build/html"  # TODO: link
+    url: "/astra-simdocs/index.html"
   - title: "Tutorials"
-    url: "/tutorials"  # TODO: link
+    url: "/tutorials"
 
 # Sidebar (Left)
 docs:
