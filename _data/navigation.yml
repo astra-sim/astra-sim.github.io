@@ -1,6 +1,8 @@
 # Header titles and links
 main:
-  - title: "Docs"
+  - title: "GitHub"
+    url: "https://github.com/astra-sim/astra-sim"
+  - title: "Wiki"
     url: "/astra-sim-docs/index.html"
   - title: "Tutorials"
     url: "/tutorials"
@@ -8,7 +10,7 @@ main:
 # Sidebar (Left)
 docs:
   - title: "Getting Started"
-    url: "/pages/docs/_build/html"
+    url: "/astra-sim-docs/index.html"
   - title: "Tutorials"
     children:
       - title: "ASPLOS 2023"

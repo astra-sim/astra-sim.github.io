@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/banner.jpg
   actions:
     - label: "Get Started"
-      url: "pages/docs/_build/html"
+      url: "/astra-sim-docs/index.html"
     - label: "Tutorials"
       url: "/tutorials"
 excerpt: "An Open-source Distributed Deep Learning Training Simulator Infrastructure"
