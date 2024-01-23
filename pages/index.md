@@ -93,7 +93,8 @@ In *Proc. of the IEEE International Symposium on Performance Analysis of Systems
 ```
 
 ## Contact
-Please email the core developers below or Tushar Krishna (tushar@ece.gatech.edu) if you have any questions.
+For any questions about using ASTRA-sim, you can email the ASTRA-sim User Mailing List: astrasim-users@googlegroups.com
+To join the mailing list, please fill out the following form: https://forms.gle/18KVS99SG3k9CGXm6
 
 ## Core Developers
 * Saeed Rashidi (Georgia Tech) <a href="mailto:saeed.rashidi@gatech.edu" class="btn btn--info"><i class="fa fa-envelope"></i> Email</a>
