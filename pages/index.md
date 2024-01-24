@@ -93,8 +93,9 @@ In *Proc. of the IEEE International Symposium on Performance Analysis of Systems
 ```
 
 ## Contact
-For any questions about using ASTRA-sim, you can email the ASTRA-sim User Mailing List: astrasim-users@googlegroups.com
-To join the mailing list, please fill out the following form: https://forms.gle/18KVS99SG3k9CGXm6
+For any questions about using ASTRA-sim, you can email the ASTRA-sim User Mailing List: <astrasim-users@googlegroups.com>
+
+To join the mailing list, please fill out this [form](https://forms.gle/18KVS99SG3k9CGXm6).
 
 ## Core Developers
 * Saeed Rashidi (Georgia Tech) <a href="mailto:saeed.rashidi@gatech.edu" class="btn btn--info"><i class="fa fa-envelope"></i> Email</a>
