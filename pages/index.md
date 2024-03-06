@@ -26,7 +26,6 @@ Below is a concise visual summary of our simulator:
 # Contact Us
 - For any questions about using ASTRA-sim, you can email the ASTRA-sim User Mailing List: <astrasim-users@googlegroups.com>
 - To join the mailing list, please fill out this [form](https://forms.gle/18KVS99SG3k9CGXm6).
-- If you'd like to actively be involved in the ASTRA-sim development process, you can also join the ASTRA-sim development Slack channel [here](https://astra-sim.github.io/join-slack-workspace).
 
 # Useful Links
 ## Documentation
@@ -36,10 +35,12 @@ Below is a concise visual summary of our simulator:
 ## GitHub Repositories
 - [ASTRA-sim](https://github.com/astra-sim/astra-sim)
 - [Chakra](https://github.com/mlcommons/chakra)
-- [Analytical Network Simulator](https://github.com/astra-sim/astra-network-analytical)
-- [ns-3 Network Simulator](https://github.com/astra-sim/astra-network-ns3)
-- [Garnet Network Simulator](https://github.com/astra-sim/astra-network-garnet)
-- [Analytical Memory Simulator](https://github.com/astra-sim/astra-memory-analytical)
+- Network Simulators
+  - [Analytical Network Simulator](https://github.com/astra-sim/astra-network-analytical)
+  - [ns-3 Network Simulator](https://github.com/astra-sim/astra-network-ns3)
+  - [Garnet Network Simulator](https://github.com/astra-sim/astra-network-garnet)
+- Memory Simulators 
+  - [Analytical Memory Simulator](https://github.com/astra-sim/astra-memory-analytical)
 
 ## Papers
 The full description of the tool and its strength can be found in these papers.
@@ -55,10 +56,7 @@ The full description of the tool and its strength can be found in these papers.
 [video](https://www.youtube.com/watch?v=S-HE9yBv8_I&list=PLHJB2bhmgB7crXM7wBKIDi7OEa0UTZtrR&index=10){: .btn .btn--danger}
 
 # Tutorials
-### 2023
 - [ASPLOS 2023](/tutorials/asplos-2023){: .btn .btn--inverse}
-
-### 2022
 - [MLSys 2022](/tutorials/mlsys-2022){: .btn .btn--inverse}
 - [ISCA 2022](/tutorials/isca-2022){: .btn .btn--inverse}
 - [ASPLOS 2022](/tutorials/asplos-2022){: .btn .btn--inverse}
