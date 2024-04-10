@@ -6,6 +6,8 @@ main:
     url: "/astra-sim-docs/index.html"
   - title: "Tutorials"
     url: "/tutorials"
+  - title: "About Us"
+    url: "/about_us"
 
 # Sidebar (Left)
 docs:

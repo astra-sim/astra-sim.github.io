@@ -93,13 +93,3 @@ The full description of the tool and its strength can be found in these papers.
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fastra-sim%2Fastra-sim.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitor&edge_flat=false)](https://hits.seeyoufarm.com)
 
-## Maintainers
-* Tushar Krishna (Georgia Tech)
-* Saeed Rashidi (Hewlett Packard)
-* Srinivas Sridharan (NVIDIA)
-* William Won (Georgia Tech) 
-* Taekyung Heo (NVIDIA) 
-* Jinsun Yoo (Georgia Tech)
-* Joongun Park (Georgia Tech)
-* Changhai Man (Georgia Tech)
-* Divya Kiran Kadiyala (Georgia Tech)
