@@ -4,6 +4,10 @@ title:  "Tutorials"
 permalink: /tutorials
 ---
 
+## 2024
+- [MICRO 2024](/tutorials/micro-2024){: .btn .btn--inverse}
+- [HotI 2024](/tutorials/hoti-2024){: .btn .btn--inverse}
+
 ## 2023
 - [ASPLOS 2023](/tutorials/asplos-2023){: .btn .btn--inverse}
 
