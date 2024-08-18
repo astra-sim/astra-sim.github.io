@@ -13,6 +13,10 @@ docs:
     url: "/astra-sim-docs/index.html"
   - title: "Tutorials"
     children:
+      - title: "MICRO 2024"
+        url: "/tutorials/micro-2024"
+      - title: "HotI 2024"
+        url: "/tutorials/hoti-2024"
       - title: "ASPLOS 2023"
         url: "/tutorials/asplos-2023"
       - title: "MLSys 2022"
