@@ -4,7 +4,6 @@ title:  "Getting Started for HotI 2024 Tutorial"
 permalink: /tutorials/hoti-2024/installation
 ---
 
-# Setting up ASTRA-sim for HotI 2024 Tutorial
 We provide Docker image set up for HotI 2024 tutorial for clean ASTRA-sim execution environment. We strongly recommend you to use this Docker environment for this tutorial.
 
 ## Pulling Docker Image
