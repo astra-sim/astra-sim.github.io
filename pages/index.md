@@ -13,16 +13,16 @@ header:
       url: "/tutorials"
 excerpt: "An Open-source Distributed Deep Learning Training Simulator Infrastructure"
 intro:
-hoti_2024_tutorial:
-  - image_path: https://hoti.org/wp-content/uploads/2019/06/hoti_logo.png
-    title: "ASTRA-sim2.0 Tutorial @ HotI 2024"
-    excerpt: "We're running ASTRA-sim2.0 tutorial at HotI 2024.<br>Aug 23, 2024, 3-5 pm (PDT) / 6-8 pm (EDT)."
-    url: "/tutorials/hoti-2024"
+micro_2024_tutorial:
+  - image_path: assets/images/tutorials/micro-2024/banner-austin.jpg
+    title: "ASTRA-sim/Chakra Tutorial @ MICRO 2024"
+    excerpt: "We're running ASTRA-sim/Chakra tutorial at MICRO 2024.<br>Nov 3, 2024, 1-5 pm (CST)<br>AT&T Hotel and Conference Center, Austin, TX."
+    url: "/tutorials/micro-2024"
     btn_label: "Read More"
     btn_class: "btn--primary"
 toc: false
 ---
-{% include feature_row id="hoti_2024_tutorial" type="left" %}
+{% include feature_row id="micro_2024_tutorial" type="left" %}
 
 # Overview
 ASTRA-sim is a distributed machine learning system simulator. It enables the systematic study of challenges in modern deep learning systems, allowing for the exploration of bottlenecks and the development of efficient methodologies for large DNN models across diverse future platforms. Using ASTRA-sim's APIs, you can plug-and-play with any network, compute, or memory simulator backends.
