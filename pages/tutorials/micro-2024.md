@@ -30,6 +30,8 @@ As an ongoing collaboration between Georgia Tech and several companies (Intel, M
 NEW -- In this tutorial, we will (i) introduce details about the Chakra Execution Traces, (ii) running custom collective communications via MSCCL-IR in ASTRA-sim, (iii) and modeling LLM training/inference using ASTRA-sim.
 </span>
 
+*Acknowledgments: Chakra and ASTRA-sim are a community effort with technical insights and code contributions from Meta, Intel, AMD, NVIDIA, HPE, Keysight, as well as several academic institutions.*
+
 ### Target Audience
 Any researcher with the interest in full-stack, large-scale AI/ML simulation.
 
