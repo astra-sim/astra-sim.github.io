@@ -61,6 +61,7 @@ Any researcher with the interest in full-stack, large-scale AI/ML simulation.
     <td><img src="/assets/images/tutorials/micro-2024/joongun_park.jpg" alt="Joongun Park"/></td>
     <td>
         <b>Joongun Park </b> (Georgia Tech) <br> <br><a href="mailto:jpark3234@gatech.edu" class="btn btn--info"><i class="fa fa-envelope"></i> Email</a> <a href="https://sites.google.com/casys.kaist.ac.kr/jupark/" class="btn btn--info"><i class="fas fa-address-card"></i> Website</a> <a href="https://www.linkedin.com/in/joongun-park-8a7364b3/" class="btn btn--info"><i class="fab fa-linkedin"></i> LinkedIn</a><br>
+        Joongun Park is a postdoctoral researcher at Georgia Tech. He earned his Ph.D. in Computer Science from KAIST in 2023, focusing on hardware security and Trusted Execution Environments. He collaborated with Intel on next-generation supercomputer architecture for IARPA project. His research interests include securing and optimizing HW/SW for distributed machine learning.
         <br>
     </td>
 </tr>
@@ -68,6 +69,7 @@ Any researcher with the interest in full-stack, large-scale AI/ML simulation.
     <td><img src="/assets/images/tutorials/micro-2024/taekyung_heo.jpg" alt="Taekyung Heo"/></td>
     <td>
         <b>Taekyung Heo </b> (NVIDIA) <br> <a href="https://sites.google.com/view/taekyungheo/" class="btn btn--info"><i class="fas fa-address-card"></i> Website</a> <a href="https://www.linkedin.com/in/taekyungheo/" class="btn btn--info"><i class="fab fa-linkedin"></i> LinkedIn</a><br>
+        Taekyung Heo is a Senior HPC Middleware Developer at NVIDIA, where he specializes in distributed machine learning systems, performance modeling, and memory systems. His work emphasizes bridging the gap between theory and practical implementation through hardware-software co-design, focusing on scaling AI workloads across thousands of GPUs. He is one of the main developers of Chakra. Taekyung holds a Ph.D. in Computer Science from KAIST (2022), an M.Sc. in Computer Science from KAIST (2016), and a B.Sc. in Computer Engineering from Sungkyunkwan University (2014).
         <br>
     </td>
 </tr>
