@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "ASTRA-sim and Chakra Tutorial @ MICRO 2024"
+title:  "ASTRA-sim and Chakra: <br/>Enabling Software-Hardware Co-Design Exploration for Distributed Machine Learning Platforms"
 permalink: /tutorials/micro-2024
 ---
 
