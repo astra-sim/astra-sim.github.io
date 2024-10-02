@@ -77,6 +77,7 @@ Any researcher with the interest in full-stack, large-scale AI/ML simulation.
     <td></td>
     <td>
         <b>Vinay Ramakrishnaiah </b> (AMD) <br><a href="mailto:Vinay.Ramakrishnaiah@amd.com" class="btn btn--info"><i class="fa fa-envelope"></i> Email</a> <a href="https://www.linkedin.com/in/vinay-ramakrishnaiah-7425323b/" class="btn btn--info"><i class="fab fa-linkedin"></i> LinkedIn</a><br>
+        Vinay Ramakrishnaiah is a Senior Member of Technical Staff at AMD working in the area of hardware-software codesign. His research interests include Artificial Intelligence (AI) at scale, scale-out networks, GPU schedulers, and developing and evaluating applications for emerging hardware architectures. Prior to joining AMD, Vinay was a staff scientist and principal investigator at the Los Alamos National Laboratory where he worked on multiple exascale computing projects, signal processing optimizations for satellites, and led the co-design summer school. Vinay obtained his Ph.D. in Electrical and Computer Engineering from the University of Wyoming with a research focus in applications of high-performance computing to antenna signal processing.
         <br>
     </td>
 </tr>
