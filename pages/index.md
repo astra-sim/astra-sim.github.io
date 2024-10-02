@@ -15,7 +15,7 @@ excerpt: "An Open-source Distributed Deep Learning Training Simulator Infrastruc
 intro:
 micro_2024_tutorial:
   - image_path: assets/images/tutorials/micro-2024/banner-austin.jpg
-    title: "ASTRA-sim/Chakra Tutorial @ MICRO 2024"
+    title: "[Tutorial at MICRO 2024]<br/>ASTRA-sim and Chakra: Enabling Software-Hardware Co-Design Exploration for Distributed Machine Learning Platforms"
     excerpt: "We're running ASTRA-sim/Chakra tutorial at MICRO 2024.<br>Nov 3, 2024, 1-5 pm (CST)<br>AT&T Hotel and Conference Center, Austin, TX."
     url: "/tutorials/micro-2024"
     btn_label: "Read More"
