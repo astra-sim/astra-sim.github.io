@@ -4,10 +4,9 @@ title:  "ASTRA-sim and Chakra: <br/>Enabling Software-Hardware Co-Design Explora
 permalink: /tutorials/micro-2024
 ---
 
-## Organizers
-<img src="/assets/images/tutorials/micro-2024/GT-logo.png" alt="" width="30%"/><br/>
-<img src="/assets/images/tutorials/micro-2024/AMD-logo.png" alt="" width="30%"/><br/>
-<img src="/assets/images/tutorials/micro-2024/NVIDIA-logo.png" alt="" width="30%"/>
+## Organizer
+### Synergy Lab, Georgia Institute of Technology
+<img src="/assets/images/tutorials/micro-2024/GT-logo.png" alt="" width="40%"/><br/>
 
 *Acknowledgments: Chakra and ASTRA-sim are a community effort with technical insights and code contributions from Meta, Intel, AMD, NVIDIA, HPE, Keysight, as well as several academic institutions.*
 
