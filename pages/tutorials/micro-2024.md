@@ -86,20 +86,30 @@ Any researcher with the interest in full-stack, large-scale AI/ML simulation.
 
 | Time (CST) | Agenda | Presenter | Resources |
 |:---:|:---|---|:---:|
-| **1:00 pm** | **Introduction to Distributed ML** | Tushar (GT) | |
-| **1:30 pm** | **Overview: ASTRA-sim and Chakra** | Tushar (GT) | |
+| | **[ Introduction ]** | | |
+| **1:00 pm** | Overview: ASTRA-sim and Chakra | Tushar (GT) | |
+| **1:10 pm** | Introduction to Distributed ML | Tushar (GT) | |
+| | | | |
+| | **[ Chakra ]** | | | 
 | **1:40 pm** | **Chakra Execution Trace** | Taekyung (NVIDIA) | |
-| | **[ASTRA-sim Deeper Dive]** | | |
+| | | | |
+| | **[ ASTRA-sim ]** | | | 
 | **2:00 pm** | Workload Layer | Taekyung (NVIDIA) | |
 | **2:20 pm** | System Layer | Will (GT/AMD) | |
 | **2:40 pm** | Network Layer | Will (GT/AMD) | |
-| **3:00 pm** | **Coffee Break** | | |
-| **3:30 pm** | **ASTRA-sim Wiki and Validation** | Vinay (AMD), Will (GT/AMD) | |
-| **3:40 pm** | **ASTRA-sim New Features** | AMD | |
-| | **[Demo]** | | |
-| **4:20 pm** | Chakra Demo | Joongun (GT) | |
-| **4:35 pm** | ASTRA-sim Demo | Joongun (GT) | |
-| **4:50 pm** | **Closing Remarks** | Tushar (GT) | |
+| | | | |
+| **3:00 pm** | **[ Coffee Break ]** | | |
+| | | | |
+| | **[ Demo ]** | | |
+| **3:30 pm** | Chakra Demo | Joongun (GT) | |
+| **3:50 pm** | ASTRA-sim Demo | Joongun (GT) | |
+| | | | |
+| | **[ ASTRA-sim Updates ]** | | |
+| **4:10 pm** | ASTRA-sim New Features | Vinay (AMD), Will (GT/AMD) | |
+| **4:40 pm** | ASTRA-sim Wiki and Validation | Will (GT/AMD) | |
+| | | | |
+| | **[ Closing ]** | | |
+| **4:50 pm** | Closing Remarks | Tushar (GT) | |
 
 ## Additional Resources
 
