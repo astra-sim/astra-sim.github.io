@@ -61,7 +61,7 @@ Any researcher with the interest in full-stack, large-scale AI/ML simulation.
     <td><img src="/assets/images/tutorials/micro-2024/joongun_park.jpg" alt="Joongun Park"/></td>
     <td>
         <b>Joongun Park </b> (Georgia Tech) <br> <br><a href="mailto:jpark3234@gatech.edu" class="btn btn--info"><i class="fa fa-envelope"></i> Email</a> <a href="https://sites.google.com/casys.kaist.ac.kr/jupark/" class="btn btn--info"><i class="fas fa-address-card"></i> Website</a> <a href="https://www.linkedin.com/in/joongun-park-8a7364b3/" class="btn btn--info"><i class="fab fa-linkedin"></i> LinkedIn</a><br>
-        Joongun Park is a postdoctoral researcher at Georgia Tech. He earned his Ph.D. in Computer Science from KAIST in 2023, focusing on hardware security and Trusted Execution Environments. He collaborated with Intel on next-generation supercomputer architecture for IARPA project. His research interests include securing and optimizing HW/SW for distributed machine learning.
+		Joongun Park is a Postdoctoral Researcher at Georgia Tech, focusing on hardware and system security, high-performance computing, and optimizing distributed machine learning systems. He is currently conducting applied research to develop secure and efficient design strategies for large-scale systems, with practical experience in both real-world and simulated environments. Joongun has collaborated with Intel on developing next-generation supercomputer architectures for an IARPA project. He holds a Ph.D. (2023), M.S. (2018), and B.S. (2016) in Computer Science from KAIST.
         <br>
     </td>
 </tr>
