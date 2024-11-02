@@ -1,36 +1,35 @@
 ---
 layout: single
-title:  "ASTRA-sim and Chakra Tutorial @ MICRO 2024"
+title:  "ASTRA-sim and Chakra: <br/>Enabling Software-Hardware Co-Design Exploration for Distributed Machine Learning Platforms"
 permalink: /tutorials/micro-2024
 ---
 
-## Organizers
-<img src="/assets/images/tutorials/micro-2024/GT-logo.png" alt="" width="30%"/><br/>
-<img src="/assets/images/tutorials/micro-2024/AMD-logo.png" alt="" width="30%"/><br/>
-<img src="/assets/images/tutorials/micro-2024/NVIDIA-logo.png" alt="" width="30%"/>
+## Organizer
+### Synergy Lab, Georgia Institute of Technology
+<img src="/assets/images/tutorials/micro-2024/GT-logo.png" alt="" width="40%"/><br/>
+
+*Acknowledgments: Chakra and ASTRA-sim are a community effort with technical insights and code contributions from Meta, Intel, AMD, NVIDIA, HPE, Keysight, as well as several academic institutions.*
 
 ## Overview
 <img src="/assets/images/astrasim_overview_codesign.png" alt="" width="100%"/>
 
 In this tutorial, we will educate the research community about the challenges in the emerging domain of distributed machine learning, demonstrate the capabilities of Chakra Execution Trace and ASTRA-sim with examples and discuss ongoing development efforts.<br>
 
+<span style="color:red;font-weight:bold">
+NEW -- In this tutorial, we will (i) introduce details about the Chakra Execution Traces, (ii) running custom collective communications via MSCCL-IR in ASTRA-sim, (iii) and modeling LLM training/inference using ASTRA-sim.
+</span>
 
 ### Date/Location
 - Nov 3, 2024, 1--5 pm CST
 - AT&T Hotel and Conference Center [Info](https://microarch.org/micro57/attend){: .btn .btn--info .btn--small}
 
 ## Description
-As Artificial Intelligence (AI) models are scaling at an unprecedented rate, Machine Learning (ML) execution heavily relies on Distributed ML over customized neural accelerator (e.g., GPU or TPU)-based High-Performance Computing (HPC) platforms connected via high-speed interconnects (e.g., NVLinks). Examples today include NVIDIA's HGX, Google's Cloud TPU, and Meta's Research Supercluster. Distributed Deep Neural Network (DNN) execution involves a complex interplay between the DNN model architecture, parallelization strategy, scheduling strategy, collective communication algorithm, network topology, remote memory accesses, and the accelerator endpoint.
 
-Collective communications (e.g., All-Reduce, Reduce-Scatter, All-Gather, All-to-All) are initiated at different phases for different parallelism approaches and play a crucial role in overall runtime if not hidden efficiently behind computation. This problem becomes paramount as recent Large Language Models (LLMs), such as GPT-3, and Recommendation models, such as DLRM, have billions to trillions of parameters and need to be scaled across tens of thousands of accelerator nodes. As innovation in AI/ML models continues to grow at an accelerated rate, there is a need for a comprehensive methodology to understand and navigate this complex intertwined co-design space to (i) architect future platforms, (ii) develop novel parallelism schemes to support efficient training of future DNN models, and (iii) develop novel fabrics for AI systems.
+As Artificial Intelligence (AI) models are scaling at an unprecedented rate, Machine Learning (ML) execution heavily relies on Distributed ML over customized neural accelerator (e.g., GPU or TPU)-based High-Performance Computing (HPC) platforms connected via high-speed interconnects (e.g., NVLinks). Examples today include NVIDIA's HGX, Google's Cloud TPU, and Meta's Research Supercluster. Distributed Deep Neural Network (DNN) execution involves a complex interplay between the DNN model architecture, parallelization strategy, scheduling strategy, collective communication algorithm, network topology, remote memory accesses, and the accelerator endpoint. As innovation in AI/ML models continues to grow at an accelerated rate, there is a need for a comprehensive methodology to understand and navigate this complex intertwined co-design space to (i) architect future platforms, (ii) develop novel parallelism schemes to support efficient training of future DNN models, and (iii) develop novel fabrics for AI systems. As an ongoing collaboration between Georgia Tech and several companies, we have been jointly developing (1) a comprehensive methodology to capture arbitrary distributed ML workloads, named Chakra Execution Trace and (ii) a detailed cycle-accurate distributed AI simulator called ASTRA-sim.
 
-As an ongoing collaboration between Georgia Tech and several companies (Intel, Meta, AMD, NVIDIA, and HPE), we have been jointly developing a detailed cycle-accurate distributed AI simulator called ASTRA-sim. ASTRA-sim models the co- design space of distributed ML described above and schedules the compute-communication interactions over plug-and-play computation, network, and remote memory simulators. It enables a systematic study of bottleneck detection and futuristic system evaluation at the software and hardware levels for scaling distributed ML. ASTRA-sim leverages the MLCommons Chakra format to describe arbitrary distributed ML workloads. It uses a Google TPU-like simulator as its computation model and provides a suite of network models (analytical network, Garnet, and ns-3) for the choice of simulation speed and fidelity.<br>
+Chakra Execution Trace (Chakra ET) is a community-driven effort in MLCommons to standardize the representation of distributed ML workloads. The standardization effort via Chakra ET would harmonize the utilization of multiple upstream applications (e.g., trace profiler or trace generator) and distinct downstream tasks (e.g., simulators or replay). Chakra ET captures arbitrary distributed ML workloads by leveraging a directed acyclic graph representation of compute, communication, and remote memory nodes.
 
-<span style="color:red;font-weight:bold">
-NEW -- In this tutorial, we will (i) introduce details about the Chakra Execution Traces, (ii) running custom collective communications via MSCCL-IR in ASTRA-sim, (iii) and modeling LLM training/inference using ASTRA-sim.
-</span>
-
-*Acknowledgments: Chakra and ASTRA-sim are a community effort with technical insights and code contributions from Meta, Intel, AMD, NVIDIA, HPE, Keysight, as well as several academic institutions.*
+ASTRA-sim models the co-design space of distributed ML described above and schedules the compute-communication interactions over plug-and-play computation, network, and remote memory simulators. It enables a systematic study of bottleneck detection and futuristic system evaluation at the software and hardware levels for scaling distributed ML. ASTRA-sim leverages the Chakra format to describe arbitrary distributed ML workloads. It uses a Google TPU-like simulator as its computation model and provides a suite of network models (analytical network, Garnet, and ns-3) for the choice of simulation speed and fidelity.<br>
 
 ### Target Audience
 Any researcher with the interest in full-stack, large-scale AI/ML simulation.
@@ -74,9 +73,10 @@ Any researcher with the interest in full-stack, large-scale AI/ML simulation.
     </td>
 </tr>
 <tr>
-    <td></td>
+    <td><img src="/assets/images/tutorials/micro-2024/vinay_ramakrishnaiah.jpg" alt="Vinay Ramakrishnaiah"/></td>
     <td>
         <b>Vinay Ramakrishnaiah </b> (AMD) <br><a href="mailto:Vinay.Ramakrishnaiah@amd.com" class="btn btn--info"><i class="fa fa-envelope"></i> Email</a> <a href="https://www.linkedin.com/in/vinay-ramakrishnaiah-7425323b/" class="btn btn--info"><i class="fab fa-linkedin"></i> LinkedIn</a><br>
+        Vinay Ramakrishnaiah is a Senior Member of Technical Staff at AMD working in the area of hardware-software codesign. His research interests include Artificial Intelligence (AI) at scale, scale-out networks, GPU schedulers, and developing and evaluating applications for emerging hardware architectures. Prior to joining AMD, Vinay was a staff scientist and principal investigator at the Los Alamos National Laboratory where he worked on multiple exascale computing projects, signal processing optimizations for satellites, and led the co-design summer school. Vinay obtained his Ph.D. in Electrical and Computer Engineering from the University of Wyoming with a research focus in applications of high-performance computing to antenna signal processing.
         <br>
     </td>
 </tr>
@@ -86,20 +86,30 @@ Any researcher with the interest in full-stack, large-scale AI/ML simulation.
 
 | Time (CST) | Agenda | Presenter | Resources |
 |:---:|:---|---|:---:|
-| **1:00 pm** | **Introduction to Distributed ML** | Tushar (GT) | |
-| **1:30 pm** | **Overview: ASTRA-sim and Chakra** | Tushar (GT) | |
+| | **[ Introduction ]** | | |
+| **1:00 pm** | Overview: ASTRA-sim and Chakra | Tushar (GT) | |
+| **1:10 pm** | Introduction to Distributed ML | Tushar (GT) | |
+| | | | |
+| | **[ Chakra ]** | | | 
 | **1:40 pm** | **Chakra Execution Trace** | Taekyung (NVIDIA) | |
-| | **[ASTRA-sim Deeper Dive]** | | |
+| | | | |
+| | **[ ASTRA-sim ]** | | | 
 | **2:00 pm** | Workload Layer | Taekyung (NVIDIA) | |
 | **2:20 pm** | System Layer | Will (GT/AMD) | |
 | **2:40 pm** | Network Layer | Will (GT/AMD) | |
-| **3:00 pm** | **Coffee Break** | | |
-| **3:30 pm** | **ASTRA-sim Wiki and Validation** | Will (GT/AMD) | |
-| **3:40 pm** | **ASTRA-sim New Features** | AMD | |
-| | **[Demo]** | | |
-| **4:20 pm** | Chakra Demo | Joongun (GT) | |
-| **4:35 pm** | ASTRA-sim Demo | Joongun (GT) | |
-| **4:50 pm** | **Closing Remarks** | Tushar (GT) | |
+| | | | |
+| **3:00 pm** | **[ Coffee Break ]** | | |
+| | | | |
+| | **[ Demo ]** | | |
+| **3:30 pm** | Chakra Demo | Joongun (GT) | |
+| **3:50 pm** | ASTRA-sim Demo | Joongun (GT) | |
+| | | | |
+| | **[ ASTRA-sim Updates ]** | | |
+| **4:10 pm** | ASTRA-sim New Features | Vinay (AMD), Will (GT/AMD) | |
+| **4:40 pm** | ASTRA-sim Wiki and Validation | Will (GT/AMD) | |
+| | | | |
+| | **[ Closing ]** | | |
+| **4:50 pm** | Closing Remarks | Tushar (GT) | |
 
 ## Additional Resources
 
@@ -120,12 +130,12 @@ In *arXiv:2305.14516 [cs.LG]*, 2023.
 {: .notice--info}
 [paper](https://arxiv.org/abs/2305.14516){: .btn .btn--success}
 
-### MSCCL-IR Paper
-Meghan Cowan, Saeed Maleki, Madanlal Musuvathi, Olli Saarikivi, and Yifan Xiong, 
-"**MSCCLang: Microsoft Collective Communication Language,**"
-In *Proc. of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '23)*, 2023.
+### CollectiveAPI Paper
+Jinsun Yoo, William Won, Meghan Cowan, Nan Jiang, Benjamin Klenk, Srinivas Sridharan†, and Tushar Krishna,
+"**Towards a Standardized Representation for Deep Learning Collective Algorithms,**"
+In *Proc. of the 2024 IEEE Symposium on High-Performance Interconnects (HOTI '24)*, 2024.
 {: .notice--info}
-[paper](https://dl.acm.org/doi/10.1145/3575693.3575724){: .btn .btn--success}
+[paper](https://ieeexplore.ieee.org/document/10664245){: .btn .btn--success}
 
 ### Repositories
 [ASTRA-sim](https://github.com/astra-sim/astra-sim){: .btn .btn--info}
