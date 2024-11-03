@@ -87,8 +87,8 @@ Any researcher with the interest in full-stack, large-scale AI/ML simulation.
 | Time (CST) | Agenda | Presenter | Resources |
 |:---:|:---|---|:---:|
 | | **[ Introduction ]** | | |
-| **1:00 pm** | Overview: ASTRA-sim and Chakra | Tushar (GT) | |
-| **1:10 pm** | Introduction to Distributed ML | Tushar (GT) | |
+| **1:00 pm** | Introduction to Distributed ML | Tushar (GT) | |
+| **1:30 pm** | Overview: ASTRA-sim and Chakra | Tushar (GT) | |
 | | | | |
 | | **[ Chakra ]** | | | 
 | **1:40 pm** | **Chakra Execution Trace** | Taekyung (NVIDIA) | |
