@@ -87,29 +87,29 @@ Any researcher with the interest in full-stack, large-scale AI/ML simulation.
 | Time (CST) | Agenda | Presenter | Resources |
 |:---:|:---|---|:---:|
 | | **[ Introduction ]** | | |
-| **1:00 pm** | Introduction to Distributed ML | Tushar (GT) | |
-| **1:30 pm** | Overview: ASTRA-sim and Chakra | Tushar (GT) | |
+| **1:00 pm** | Introduction to Distributed ML | Tushar (GT) | [Slide](/assets/tutorials/micro-2024/1_intro_to_distributed_ml.pdf){: .btn .btn--success .btn--small} |
+| **1:30 pm** | Overview: ASTRA-sim and Chakra | Tushar (GT) | [Slide](/assets/tutorials/micro-2024/2_chakra_astrasim_overview.pdf){: .btn .btn--success .btn--small} |
 | | | | |
 | | **[ Chakra ]** | | | 
-| **1:40 pm** | **Chakra Execution Trace** | Taekyung (NVIDIA) | |
+| **1:40 pm** | **Chakra Execution Trace** | Taekyung (NVIDIA) | [Slide](/assets/tutorials/micro-2024/3_chakra.pdf){: .btn .btn--success .btn--small} |
 | | | | |
 | | **[ ASTRA-sim ]** | | | 
-| **2:00 pm** | Workload Layer | Taekyung (NVIDIA) | |
-| **2:20 pm** | System Layer | Will (GT/AMD) | |
-| **2:40 pm** | Network Layer | Will (GT/AMD) | |
+| **2:00 pm** | Workload Layer | Taekyung (NVIDIA) | [Slide](/assets/tutorials/micro-2024/4_workload_layer.pdf){: .btn .btn--success .btn--small} |
+| **2:20 pm** | System Layer | Will (GT/AMD) | [Slide](/assets/tutorials/micro-2024/5_system_layer.pdf){: .btn .btn--success .btn--small} |
+| **2:40 pm** | Network Layer | Will (GT/AMD) | [Slide](/assets/tutorials/micro-2024/6_network_layer.pdf){: .btn .btn--success .btn--small} |
 | | | | |
 | **3:00 pm** | **[ Coffee Break ]** | | |
 | | | | |
-| | **[ Demo ]** | | |
+| | **[ Demo ]** | | [Slide](/assets/tutorials/micro-2024/7_demo.pdf){: .btn .btn--success .btn--small} |
 | **3:30 pm** | Chakra Demo | Joongun (GT) | |
 | **3:50 pm** | ASTRA-sim Demo | Joongun (GT) | |
 | | | | |
 | | **[ ASTRA-sim Updates ]** | | |
-| **4:10 pm** | ASTRA-sim New Features | Vinay (AMD), Will (GT/AMD) | |
-| **4:40 pm** | ASTRA-sim Wiki and Validation | Will (GT/AMD) | |
+| **4:10 pm** | ASTRA-sim New Features | Vinay (AMD), Will (GT/AMD) | [Slide](/assets/tutorials/micro-2024/8_astrasim_new_features.pdf){: .btn .btn--success .btn--small} |
+| **4:40 pm** | ASTRA-sim Wiki and Validation | Will (GT/AMD) | [Slide](/assets/tutorials/micro-2024/9_wiki_and_validation.pdf){: .btn .btn--success .btn--small} |
 | | | | |
 | | **[ Closing ]** | | |
-| **4:50 pm** | Closing Remarks | Tushar (GT) | |
+| **4:50 pm** | Closing Remarks | Tushar (GT) | [Slide](/assets/tutorials/micro-2024/10_conclusion.pdf){: .btn .btn--success .btn--small} |
 
 ## Additional Resources
 

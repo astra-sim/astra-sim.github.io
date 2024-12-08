@@ -22,7 +22,7 @@ micro_2024_tutorial:
     btn_class: "btn--primary"
 toc: false
 ---
-{% include feature_row id="micro_2024_tutorial" type="left" %}
+<!-- {% include feature_row id="micro_2024_tutorial" type="left" %} -->
 
 # Overview
 ASTRA-sim is a distributed machine learning system simulator. It enables the systematic study of challenges in modern deep learning systems, allowing for the exploration of bottlenecks and the development of efficient methodologies for large DNN models across diverse future platforms. Using ASTRA-sim's APIs, you can plug-and-play with any network, compute, or memory simulator backends.
