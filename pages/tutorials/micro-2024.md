@@ -87,29 +87,29 @@ Any researcher with the interest in full-stack, large-scale AI/ML simulation.
 | Time (CST) | Agenda | Presenter | Resources |
 |:---:|:---|---|:---:|
 | | **[ Introduction ]** | | |
-| **1:00 pm** | Introduction to Distributed ML | Tushar (GT) | [Slide](/assets/tutorials/micro-2024/1_intro_to_distributed_ml.pdf){: .btn .btn--success .btn--small} |
-| **1:30 pm** | Overview: ASTRA-sim and Chakra | Tushar (GT) | [Slide](/assets/tutorials/micro-2024/2_chakra_astrasim_overview.pdf){: .btn .btn--success .btn--small} |
+| **1:00 pm** | Introduction to Distributed ML | Tushar (GT) | [Slide](/assets/tutorials/micro-2024/1_intro_to_distributed_ml.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/Fd5vm-ImyuI?si=kMOO_mYNaCKll1IW){: .btn .btn--danger} |
+| **1:30 pm** | Overview: ASTRA-sim and Chakra | Tushar (GT) | [Slide](/assets/tutorials/micro-2024/2_chakra_astrasim_overview.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/wN8b-nq-5T0?si=lcTc4nIaWFbUtkYI){: .btn .btn--danger} |
 | | | | |
 | | **[ Chakra ]** | | | 
-| **1:40 pm** | **Chakra Execution Trace** | Taekyung (NVIDIA) | [Slide](/assets/tutorials/micro-2024/3_chakra.pdf){: .btn .btn--success .btn--small} |
+| **1:40 pm** | **Chakra Execution Trace** | Taekyung (NVIDIA) | [Slide](/assets/tutorials/micro-2024/3_chakra.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/wDdRi4rUtqU?si=Y2dcO7ejFiHL3Wqi){: .btn .btn--danger} |
 | | | | |
 | | **[ ASTRA-sim ]** | | | 
-| **2:00 pm** | Workload Layer | Taekyung (NVIDIA) | [Slide](/assets/tutorials/micro-2024/4_workload_layer.pdf){: .btn .btn--success .btn--small} |
-| **2:20 pm** | System Layer | Will (GT/AMD) | [Slide](/assets/tutorials/micro-2024/5_system_layer.pdf){: .btn .btn--success .btn--small} |
-| **2:40 pm** | Network Layer | Will (GT/AMD) | [Slide](/assets/tutorials/micro-2024/6_network_layer.pdf){: .btn .btn--success .btn--small} |
+| **2:00 pm** | Workload Layer | Taekyung (NVIDIA) | [Slide](/assets/tutorials/micro-2024/4_workload_layer.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/XFNW8myIW_s?si=6aHUSkadBgf10wNe){: .btn .btn--danger} |
+| **2:20 pm** | System Layer | Will (GT/AMD) | [Slide](/assets/tutorials/micro-2024/5_system_layer.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/rASNeRewu4M?si=Ug140AwGdBwAjt5M){: .btn .btn--danger} |
+| **2:40 pm** | Network Layer | Will (GT/AMD) | [Slide](/assets/tutorials/micro-2024/6_network_layer.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/5l9o7ax0_c4?si=TUfOaHF0iquX13GW){: .btn .btn--danger} |
 | | | | |
 | **3:00 pm** | **[ Coffee Break ]** | | |
 | | | | |
-| | **[ Demo ]** | | [Slide](/assets/tutorials/micro-2024/7_demo.pdf){: .btn .btn--success .btn--small} |
+| | **[ Demo ]** | | [Slide](/assets/tutorials/micro-2024/7_demo.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/F-xEPeN4Zgw?si=hWJEU3oRHOMW06yn){: .btn .btn--danger} |
 | **3:30 pm** | Chakra Demo | Joongun (GT) | |
 | **3:50 pm** | ASTRA-sim Demo | Joongun (GT) | |
 | | | | |
 | | **[ ASTRA-sim Updates ]** | | |
-| **4:10 pm** | ASTRA-sim New Features | Vinay (AMD), Will (GT/AMD) | [Slide](/assets/tutorials/micro-2024/8_astrasim_new_features.pdf){: .btn .btn--success .btn--small} |
-| **4:40 pm** | ASTRA-sim Wiki and Validation | Will (GT/AMD) | [Slide](/assets/tutorials/micro-2024/9_wiki_and_validation.pdf){: .btn .btn--success .btn--small} |
+| **4:10 pm** | ASTRA-sim New Features | Vinay (AMD), Will (GT/AMD) | [Slide](/assets/tutorials/micro-2024/8_astrasim_new_features.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/Db-1Aho4AlY?si=rc_A2j2a9kbNHsYt){: .btn .btn--danger} |
+| **4:40 pm** | ASTRA-sim Wiki and Validation | Will (GT/AMD) | [Slide](/assets/tutorials/micro-2024/9_wiki_and_validation.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/AIBCyMfnv_0?si=5ajWF3zIHfziSMdc){: .btn .btn--danger} |
 | | | | |
 | | **[ Closing ]** | | |
-| **4:50 pm** | Closing Remarks | Tushar (GT) | [Slide](/assets/tutorials/micro-2024/10_conclusion.pdf){: .btn .btn--success .btn--small} |
+| **4:50 pm** | Closing Remarks | Tushar (GT) | [Slide](/assets/tutorials/micro-2024/10_conclusion.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/xLAfxf9pTW4?si=gy44mdfqR8SZHsEY){: .btn .btn--danger} |
 
 ## Additional Resources
 
