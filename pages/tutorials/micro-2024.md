@@ -100,9 +100,9 @@ Any researcher with the interest in full-stack, large-scale AI/ML simulation.
 | | | | |
 | **3:00 pm** | **[ Coffee Break ]** | | |
 | | | | |
-| | **[ Demo ]** | | [Slide](/assets/tutorials/micro-2024/7_demo.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/F-xEPeN4Zgw?si=hWJEU3oRHOMW06yn){: .btn .btn--danger} |
-| **3:30 pm** | Chakra Demo | Joongun (GT) | |
-| **3:50 pm** | ASTRA-sim Demo | Joongun (GT) | |
+| | **[ Demo ]** | | |
+| **3:30 pm** | Chakra + ASTRA-sim Demo | Joongun (GT) | [Slide](/assets/tutorials/micro-2024/7_demo.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/F-xEPeN4Zgw?si=hWJEU3oRHOMW06yn){: .btn .btn--danger} |
+| **3:50 pm** | (Supplementary) NS-3 Demo | Jinsun (GT) | [Slide](/assets/tutorials/micro-2024/7_demo_suppl_ns3.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/YhYKMHJo7ns?si=U16jOLBOTym0jhCj){: .btn .btn--danger} |
 | | | | |
 | | **[ ASTRA-sim Updates ]** | | |
 | **4:10 pm** | ASTRA-sim New Features | Vinay (AMD), Will (GT/AMD) | [Slide](/assets/tutorials/micro-2024/8_astrasim_new_features.pdf){: .btn .btn--success .btn--small} [Video](https://youtu.be/Db-1Aho4AlY?si=rc_A2j2a9kbNHsYt){: .btn .btn--danger} |
