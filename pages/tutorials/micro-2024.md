@@ -113,6 +113,9 @@ Any researcher with the interest in full-stack, large-scale AI/ML simulation.
 
 ## Additional Resources
 
+### Installation
+[Installation](/tutorials/micro-2024/installation){: .btn .btn--info}
+
 ### MLCommons Chakra Working Group
 [Website](https://mlcommons.org/working-groups/research/chakra/){: .btn .btn--info}
 
