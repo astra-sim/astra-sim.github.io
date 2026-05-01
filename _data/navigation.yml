@@ -13,6 +13,8 @@ docs:
     url: "/astra-sim-docs/index.html"
   - title: "Tutorials"
     children:
+      - title: "ISCA 2026"
+        url: "/tutorials/isca-2026"
       - title: "MICRO 2024"
         url: "/tutorials/micro-2024"
       - title: "HotI 2024"
@@ -25,4 +27,3 @@ docs:
         url: "/tutorials/isca-2022"
       - title: "ASPLOS 2022"
         url: "/tutorials/asplos-2022"
-
