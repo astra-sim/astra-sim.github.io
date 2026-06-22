@@ -80,4 +80,3 @@ cd tutorials/isca2022/astra-sim/
     <a href="/tutorials/isca-2022" class="pagination--pager">Back to Tutorial Page</a>
 </nav>
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=http%3A%2F%2Fastra-sim.github.io%2Ftutorials%2Fisca-2022%2Finstallation&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitor&edge_flat=false)](https://hits.seeyoufarm.com)

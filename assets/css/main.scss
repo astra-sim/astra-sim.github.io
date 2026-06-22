@@ -1,0 +1,17 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+@media (min-width: 1280px) {
+  #main {
+    max-width: 90%;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  td img {
+    max-width: 150px;
+  }
+}
