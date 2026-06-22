@@ -60,6 +60,20 @@ Below is a concise visual summary of our simulator:
 
 The full description of the tool and its strength can be found in these papers.
 
+- ASTRA-sim 3.0 (arXiv 2026)
+[paper](https://doi.org/10.48550/arXiv.2606.10440){: .btn .btn--success}
+
+```latex
+@misc{won2026astrasim3,
+  author={William Won and Jinsun Yoo and Tuan Ta and Moumita Dey and Andy Balogh and Pradosh Datta and Furkan Eris and Conor Green and Winston Liu and Changhai Man and Kingshuk Mandal and Amos Rai and Vinay Ramakrishnaiah and Ruchi Shah and David Sidler and Harsh Sikhwal and Hanjiang Wu and Tushar Krishna and Bradford M. Beckmann},
+  title={ASTRA-sim 3.0: Next-Level Distributed Machine Learning Simulations via High-Fidelity GPU and Infrastructure Modeling},
+  year={2026},
+  eprint={2606.10440},
+  archivePrefix={arXiv},
+  primaryClass={cs.DC},
+  url={https://arxiv.org/abs/2606.10440}}
+```
+
 - ASTRA-sim2.0 (ISPASS 2023)
 [paper](https://arxiv.org/abs/2303.14006){: .btn .btn--success}
 [slides](/assets/papers/astra-sim2/ASTRA-sim2-ISPASS_2023.pdf){: .btn .btn--success}
@@ -96,14 +110,4 @@ The full description of the tool and its strength can be found in these papers.
   doi={10.1109/ISPASS48437.2020.00018}}
 ```
 
-# Tutorials
-
-- [ASPLOS 2023](/tutorials/asplos-2023){: .btn .btn--inverse}
-- [MLSys 2022](/tutorials/mlsys-2022){: .btn .btn--inverse}
-- [ISCA 2022](/tutorials/isca-2022){: .btn .btn--inverse}
-- [ASPLOS 2022](/tutorials/asplos-2022){: .btn .btn--inverse}
-
-{% include feature_row id="intro" %}
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fastra-sim%2Fastra-sim.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitor&edge_flat=false)](https://hits.seeyoufarm.com)
 

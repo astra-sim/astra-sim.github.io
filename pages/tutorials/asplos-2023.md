@@ -149,4 +149,3 @@ In *Proc. of the 27th International Symposium on High-Performance Interconnects 
 [ASTRA-sim](https://github.com/astra-sim/astra-sim){: .btn .btn--info}
 [Analytical Network](https://github.com/astra-sim/analytical){: .btn .btn--info}
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fastra-sim.github.io%2Ftutorials%2Fasplos-2023&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)

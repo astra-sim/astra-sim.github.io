@@ -145,4 +145,3 @@ In *Proc. of the 2024 IEEE Symposium on High-Performance Interconnects (HOTI '24
 [Chakra](https://github.com/mlcommons/chakra){: .btn .btn--info}
 [Analytical Network](https://github.com/astra-sim/analytical){: .btn .btn--info}
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=http%3A%2F%2Fastra-sim.github.io%2Ftutorials%2Fmicro-2024&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
