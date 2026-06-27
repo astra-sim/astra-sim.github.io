@@ -11,7 +11,7 @@ header:
       url: "/astra-sim-docs/index.html"
     - label: "Tutorials"
       url: "/tutorials"
-excerpt: "An Open-source Distributed Deep Learning Training Simulator Infrastructure"
+excerpt: "ASTRA-sim: AI System Tradeoff & Resource Analysis Simulator"
 intro:
 micro_2024_tutorial:
   - image_path: assets/images/tutorials/isca-2026/banner-raleigh.jpg
@@ -23,6 +23,8 @@ micro_2024_tutorial:
 toc: false
 ---
 {% include feature_row id="micro_2024_tutorial" type="left" %}
+
+<img src="/assets/images/astra-sim-logo.png" alt="ASTRA-sim Logo" width="450px"/>
 
 # Overview
 
